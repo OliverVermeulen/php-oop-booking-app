@@ -3,6 +3,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <link rel="shortcut icon" href="./src/images/icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <img src="./src/images/airdnd-2.png" alt="" class="logo">
@@ -27,19 +29,20 @@
         </div>
     </header>
     <main>
-        <!-- <form action="#" method="post" class="sign-in-form">
-            <label for="name">Enter name</label>
-            <input type="text" name="name" placeholder="Enter name only" required>
+        <div class="grid-container">
+            <div class="grid-item"><img src="./src/images/bag-end.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item"><img src="./src/images/adams-family-mansion.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item"><img src="./src/images/simpsons.jpg" alt="" class="accommodation"></div>
 
-            <label for="surname">Enter surname</label>
-            <input type="text" name="surname" placeholder="Enter surname only" required>
+            <div class="grid-item"><img src="./src/images/spongebob-house.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item"><img src="./src/images/minecraft.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item"><img src="./src/images/tardis.jpg" alt="" class="accommodation"></div>
 
-            <label for="email">Enter email</label>
-            <input type="text" name="surname" placeholder="Enter email" required>
-
-            <label for="password">Enter password</label>
-            <input type="password" name="password" maxlength="20" required>
-        </form> -->
+            <div class="grid-item"><img src="./src/images/flintstones.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item"><img src="./src/images/teletubby-dome.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item"><img src="./src/images/the-burrow.jpg" alt="" class="accommodation"></div>
+        </div>
     </main>
 </body>
+
 </html>
