@@ -19,8 +19,8 @@
         <img src="./src/images/airdnd-2.png" alt="" class="logo">
 
         <form action="">
-            <input type="search" name="search" id="search" placeholder="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
+            <input type="search" name="search" class="search-input" placeholder="Search">
+            <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
         </form>
 
         <div class="register_sign-in">
@@ -41,6 +41,8 @@
             <div class="grid-item"><img src="./src/images/flintstones.jpg" alt="" class="accommodation"></div>
             <div class="grid-item"><img src="./src/images/teletubby-dome.jpg" alt="" class="accommodation"></div>
             <div class="grid-item"><img src="./src/images/the-burrow.jpg" alt="" class="accommodation"></div>
+
+            <div class="grid-item"><img src="./src/images/minecraft.jpg" alt="" class="accommodation"></div>
         </div>
     </main>
 </body>
