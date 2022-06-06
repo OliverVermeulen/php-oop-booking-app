@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+body {
+  font-family: Avenir Next, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: #003580;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px 20px 200px;
+}
+
+header a {
+  color: #0071c2;
+  background-color: aliceblue;
+  border: 1px solid #0071c2;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  padding: 0px 200px 0px 200px;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
