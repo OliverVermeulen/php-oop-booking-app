@@ -30,19 +30,59 @@
     </header>
     <main>
         <div class="grid-container">
-            <div class="grid-item"><img src="./src/images/bag-end.jpg" alt="" class="accommodation"></div>
-            <div class="grid-item"><img src="./src/images/adams-family-mansion.jpg" alt="" class="accommodation"></div>
-            <div class="grid-item"><img src="./src/images/simpsons.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item">
+                <img src="./src/images/bag-end.jpg" alt="" class="accommodation">
+                <p>The Shire, Ariandor</p>
+                <p>R1000 ZAR night</p>
+            </div>
+            <div class="grid-item">
+                <img src="./src/images/adams-family-mansion.jpg" alt="" class="accommodation">
+                <p>Los Angeles, USA</p>
+                <p>R2000 ZAR night</p>
+            </div>
+            <div class="grid-item">
+                <img src="./src/images/simpsons.jpg" alt="" class="accommodation">
+                <p>Springfield, Oregon</p>
+                <p>R900 ZAR night</p>
+            </div>
+            <div class="grid-item">
+                <img src="./src/images/spongebob-house.jpg" alt="" class="accommodation">
+                <p>Bathurst, Eastern Cape</p>
+                <p>R1000 ZAR night</p>
+            </div>
 
-            <div class="grid-item"><img src="./src/images/spongebob-house.jpg" alt="" class="accommodation"></div>
-            <div class="grid-item"><img src="./src/images/minecraft.jpg" alt="" class="accommodation"></div>
-            <div class="grid-item"><img src="./src/images/tardis.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item">
+                <img src="./src/images/minecraft.jpg" alt="" class="accommodation">
+                <p>Village, Grass Plains</p>
+                <p>R1000 ZAR night</p>
+            </div>
+            <div class="grid-item">
+                <img src="./src/images/tardis.jpg" alt="" class="accommodation">
+                <p>Anywhere, Galaxy</p>
+                <p>R10000 ZAR night</p>
+            </div>
+            <div class="grid-item">
+                <img src="./src/images/flintstones.jpg" alt="" class="accommodation">
+                <p>Bedrock, Cobblestone County</p>
+                <p>R1200 ZAR night</p>
+            </div>
+            <div class="grid-item">
+                <img src="./src/images/teletubby-dome.jpg" alt="" class="accommodation">
+                <p>Anywhere, Galaxy</p>
+                <p>R10000 ZAR night</p>
+            </div>
 
-            <div class="grid-item"><img src="./src/images/flintstones.jpg" alt="" class="accommodation"></div>
-            <div class="grid-item"><img src="./src/images/teletubby-dome.jpg" alt="" class="accommodation"></div>
-            <div class="grid-item"><img src="./src/images/the-burrow.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item">
+                <img src="./src/images/the-burrow.jpg" alt="" class="accommodation">
+                <p>Devon, England</p>
+                <p>R1500 ZAR night</p>
+            </div>
 
-            <div class="grid-item"><img src="./src/images/minecraft.jpg" alt="" class="accommodation"></div>
+            <div class="grid-item">
+                <img src="./src/images/kame-house.jpg" alt="" class="accommodation">
+                <p>Island, Polynesia</p>
+                <p>R1500 ZAR night</p>
+            </div>
         </div>
     </main>
 </body>
