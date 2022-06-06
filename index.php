@@ -7,12 +7,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Looking.com</title>
+    <title>AirDnD</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/images/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Looking.com</h1>
+        <img src="./src/images/airdnd-2.png" alt="" class="logo">
+
+        <form action="">
+            <input type="search" name="search" id="search" placeholder="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
         <div class="register_sign-in">
             <a href="#">Register</a>
             <a href="#">Sign In</a>
