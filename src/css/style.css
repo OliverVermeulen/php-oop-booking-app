@@ -9,6 +9,7 @@ body {
   font-size: 14px;
 }
 
+/* Header */
 header {
   display: flex;
   flex-direction: row;
@@ -18,14 +19,17 @@ header {
   border-bottom: 1px solid lightgray;
 }
 header .logo {
-  width: 110px;
+  width: 100%;
+  max-width: 110px;
+  height: auto;
 }
 header form {
   border: 1px solid #ff1c30;
   border-radius: 50px;
-  padding: 8px 16px;
+  padding: 6px 16px;
 }
 header .search-input {
+  background-color: transparent;
   border: none;
   border-bottom: 1px solid lightgray;
   height: 30px;
@@ -54,29 +58,10 @@ header a:hover {
   box-shadow: 2px 2px 5px rgb(192, 192, 192);
 }
 
+/* Main Body */
 main {
   padding: 0px 200px 0px 200px;
 }
-/* .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-.grid-item {
-  padding: 10px;
-  text-align: center;
-}*/
-.accommodation {
-  width: 100%;
-  height: auto;
-}
-
-.card {
-  background-color: #ff1c30;
-  color: white;
-  height: auto;
-  width: 100%;
-}
-
 .cards {
   max-width: 1500px;
   margin: 0 auto;
@@ -84,7 +69,24 @@ main {
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+.card {
+  height: auto;
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid #ff1c30;
+}
+.card .accommodation {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0px 0px;
+}
+.card p {
+  padding-left: 20px;
+  font-weight: 700;
+}
 
+/* Media Queries */
 @media (max-width: 480px) {
   header {
     padding: 10px;
@@ -92,9 +94,6 @@ main {
   }
   main {
     padding: 10px;
-  }
-  .grid-container {
-    grid-template-columns: auto;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -104,37 +103,28 @@ main {
   main {
     padding: 10px;
   }
-  .grid-container {
-    grid-template-columns: auto auto;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
-    padding: 10px;
+    padding: 10px 30px;
   }
   main {
-    padding: 10px;
-  }
-  .grid-container {
-    grid-template-columns: auto auto;
+    padding: 10px 30px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
   header {
-    padding: 10px 100px 10px 100px;
+    padding: 10px 50px;
   }
   main {
-    padding: 10px;
-  }
-  .grid-container {
-    grid-template-columns: auto auto auto;
+    padding: 10px 50px;
   }
 }
 @media (min-width: 1281px) {
   header {
-    padding: 10px 100px 10px 100px;
+    padding: 10px 100px;
   }
   main {
-    padding: 10px 100px 10px 100px;
+    padding: 10px 100px;
   }
 }

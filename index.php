@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AirDnD</title>
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="shortcut icon" href="./src/images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/images/tab-icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
 </head>
 
@@ -33,43 +33,43 @@
             <div class="card">
                 <img src="./src/images/bag-end.jpg" alt="Bag End" class="accommodation">
                 <p>The Shire, Ariandor</p>
-                <p>R1000 ZAR night</p>
+                <p>R1,000 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/addams-family-mansion.jpg" alt="The Addams Family Mansion" class="accommodation">
                 <p>Finding, Lost Angeles</p>
-                <p>R2000 ZAR night</p>
+                <p>R2,000 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/kame-house.jpg" alt="Kame House" class="accommodation">
-                <p>Island, Polynesia</p>
-                <p>R1500 ZAR night</p>
+                <p>Turtle Island, Polynesia</p>
+                <p>R1,500 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/the-flintstones-house.jpg" alt="The Flintstones House" class="accommodation">
                 <p>Bedrock, Cobblestone County</p>
-                <p>R1200 ZAR night</p>
+                <p>R1,200 ZAR night</p>
             </div>
 
             <div class="card">
                 <img src="./src/images/minecraft-village-house.jpg" alt="Minecraft Village House" class="accommodation">
                 <p>Village, Grass Plains</p>
-                <p>R1000 ZAR night</p>
+                <p>R1,000 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/tardis.jpg" alt="The Tardis" class="accommodation">
                 <p>Anywhere, Galaxy</p>
-                <p>R10000 ZAR night</p>
+                <p>R10,000 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/tubbytronic-superdome.jpg" alt="Tubbytronic Superdome" class="accommodation">
                 <p>Homedome, Teletubbyland</p>
-                <p>R10000 ZAR night</p>
+                <p>R10,000 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/spongebob-pineapple-house.jpg" alt="Pineapple House" class="accommodation">
                 <p>Bathurst, Eastern Cape</p>
-                <p>R1000 ZAR night</p>
+                <p>R1,000 ZAR night</p>
             </div>
 
             <div class="card">
