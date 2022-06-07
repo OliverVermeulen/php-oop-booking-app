@@ -61,7 +61,6 @@ main {
   grid-template-columns: auto auto auto auto;
 }
 .grid-item {
-  /* border: 1px solid rgba(32, 164, 173, 0.8); */
   padding: 10px;
   text-align: center;
 }
