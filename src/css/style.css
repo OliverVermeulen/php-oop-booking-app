@@ -108,11 +108,17 @@ main {
 @media (min-width: 1025px) and (max-width: 1280px) {
   header {
     padding: 10px 100px 10px 100px;
+    background-color: blue;
   }
   main {
     padding: 0px;
   }
   .grid-container {
     grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1281px) {
+  main {
+    background-color: blue;
   }
 }
