@@ -116,3 +116,11 @@ main {
     grid-template-columns: auto auto auto;
   }
 }
+@media (min-width: 1281px) {
+  header {
+    padding: 10px 100px 10px 100px;
+  }
+  main {
+    padding: 10px 100px 10px 100px;
+  }
+}
