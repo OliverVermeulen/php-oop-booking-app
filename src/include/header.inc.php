@@ -7,7 +7,7 @@
     </form>
 
     <div class="register_sign-in">
-        <a href="#">Register</a>
-        <a href="#">Sign In</a>
+        <a href="#" class="navigation-button">Register</a>
+        <a href="#" class="navigation-button">Sign In</a>
     </div>
 </header>
