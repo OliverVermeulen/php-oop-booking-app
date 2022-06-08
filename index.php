@@ -82,6 +82,11 @@
                 <p>Springfield, Oregon</p>
                 <p>R900 ZAR night</p>
             </div>
+            <div class="card">
+                <img src="./src/images/arrow-house.jpeg" alt="Arrow House" class="accommodation">
+                <p>Garden in Arley, England</p>
+                <p>R10,000 ZAR night</p>
+            </div>
         </div>
     </main>
 </body>
