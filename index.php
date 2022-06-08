@@ -1,4 +1,5 @@
 <?php
+$head = "Airdnd";
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Airdnd</title>
+    <title><?= $head ?></title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="shortcut icon" href="./src/images/tab-icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>

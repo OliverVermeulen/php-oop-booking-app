@@ -7,6 +7,6 @@
     <div div="extra-information">
         <span>R ZAR</span>
         <span>|</span>
-        <span>Help</span>
+        <span>Help <i class="fa fa-gear"></i></span>
     </div>
 </footer>
