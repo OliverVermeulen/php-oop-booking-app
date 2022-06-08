@@ -89,6 +89,7 @@
             </div>
         </div>
     </main>
+    <?php include("./src/include/footer.inc.php") ?>
 </body>
 
 </html>

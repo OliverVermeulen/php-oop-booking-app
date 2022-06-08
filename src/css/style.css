@@ -128,3 +128,14 @@ main {
     padding: 10px 100px;
   }
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 200px;
+  border-top: 1px solid lightgray;
+  color: #ff1c30;
+  font-weight: 500;
+}
