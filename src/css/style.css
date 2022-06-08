@@ -24,18 +24,10 @@ header .logo {
   max-width: 110px;
   height: auto;
 }
-header form {
+header .search-bar {
   border: 1px solid #ff1c30;
   border-radius: 50px;
   padding: 6px 16px;
-}
-header .search-input {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid lightgray;
-  height: 30px;
-  font-size: 14px;
-  outline: none;
 }
 header .search-btn {
   background-color: #ff1c30;
@@ -57,6 +49,30 @@ header .navigation-button {
 header .navigation-button:hover {
   box-shadow: 2px 2px 5px rgb(192, 192, 192);
 }
+header .sign-in-button {
+  background-color: #fff;
+  color: #ff1c30;
+  border: 1px solid #ff1c30;
+  border-radius: 50px;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 14px;
+}
+header .sign-in-button:hover {
+  box-shadow: 2px 2px 5px rgb(192, 192, 192);
+}
+
+.form-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  height: 25px;
+  font-size: 14px;
+  outline: none;
+}
+
+
 
 /* Main Body */
 main {
@@ -84,28 +100,6 @@ main {
 .card p {
   padding-left: 20px;
   font-weight: 700;
-}
-
-.form-input {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid lightgray;
-  height: 30px;
-  font-size: 14px;
-  outline: none;
-}
-
-.login-button {
-  background-color: #fff;
-  color: #ff1c30;
-  border: 1px solid #ff1c30;
-  border-radius: 50px;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.login-button:hover {
-  box-shadow: 2px 2px 5px rgb(192, 192, 192);
 }
 
 /* Footer */
@@ -179,7 +173,6 @@ footer span {
   }
 }
 
-/* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
@@ -190,35 +183,20 @@ footer span {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.24);
 }
 
-/* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #fff;
   margin: auto;
   padding: 0;
-  border: 1px solid #888;
-  width: 80%;
+  width: 95%;
+  max-width: 600px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
+  border-radius: 15px;
 }
 
 @keyframes animatetop {
@@ -234,23 +212,22 @@ footer span {
 
 /* The Close Button */
 .close {
-  color: white;
+  color: black;
   float: right;
   font-size: 28px;
-  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: #ff1c30;
   text-decoration: none;
   cursor: pointer;
 }
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
+  color: #ff1c30;
+  border-bottom: 1px solid lightgray;
 }
 
 .modal-body {
