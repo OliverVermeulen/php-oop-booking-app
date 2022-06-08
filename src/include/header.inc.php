@@ -7,11 +7,12 @@
     </form>
 
     <div class="register_sign-in">
-        <a href="/php-oop-booking-app/src/pages/register.php" class="navigation-button">Register</a>
+        <form action="/php-oop-booking-app/src/pages/register.php">
+            <input type="submit" value="Register" class="sign-in-button"/>
+        </form>
         <button id="myBtn" class="sign-in-button">Sign In</button>
-        <!-- The Modal -->
+        
         <div id="myModal" class="modal">
-            <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="close">&times;</span>

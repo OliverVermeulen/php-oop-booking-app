@@ -37,7 +37,7 @@ header .search-btn {
   width: 30px;
   height: 30px;
 }
-header .navigation-button {
+/* header .navigation-button {
   background-color: #fff;
   color: #ff1c30;
   border: 1px solid #ff1c30;
@@ -48,7 +48,7 @@ header .navigation-button {
 }
 header .navigation-button:hover {
   box-shadow: 2px 2px 5px rgb(192, 192, 192);
-}
+} */
 header .sign-in-button {
   background-color: #fff;
   color: #ff1c30;
@@ -61,6 +61,10 @@ header .sign-in-button {
 }
 header .sign-in-button:hover {
   box-shadow: 2px 2px 5px rgb(192, 192, 192);
+}
+header .sign-in-button a {
+  color: #ff1c30;
+  text-decoration: none;
 }
 
 .form-input {
