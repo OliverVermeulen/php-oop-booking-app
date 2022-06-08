@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img src="./src/images/airdnd.png" alt="Airdnd logo" class="logo">
 
         <form action="#" method="POST">
@@ -28,7 +28,7 @@
             <a href="#">Sign In</a>
         </div>
     </header>
-    <main>
+    <main class="main">
         <div class="cards">
             <div class="card">
                 <img src="./src/images/bag-end.jpg" alt="Bag End" class="accommodation">
