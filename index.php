@@ -13,6 +13,7 @@ $head = "Airdnd";
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="shortcut icon" href="./src/images/tab-icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
+    <script src="./src/js/script.js" defer></script>
 </head>
 
 <body>

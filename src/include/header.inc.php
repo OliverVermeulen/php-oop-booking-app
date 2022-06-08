@@ -7,7 +7,24 @@
     </form>
 
     <div class="register_sign-in">
-        <a href="#" class="navigation-button">Register</a>
-        <a href="#" class="navigation-button">Sign In</a>
-    </div>
+        <a href="/php-oop-booking-app/src/pages/register.php" class="navigation-button">Register</a>
+        <a href="/php-oop-booking-app/src/pages/register.php" class="navigation-button">Sign In</a>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Sign In</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                </div>
+            </div>
+        </div>
 </header>
