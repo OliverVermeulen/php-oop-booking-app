@@ -7,6 +7,7 @@ body {
   font-family: Avenir Next, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
     Helvetica, Arial, sans-serif;
   font-size: 14px;
+  font-weight: 500;
 }
 
 /* Header */
@@ -51,7 +52,6 @@ header a {
   border-radius: 50px;
   padding: 8px 16px;
   text-decoration: none;
-  font-weight: 500;
   transition: 0.5s;
 }
 header a:hover {
@@ -136,6 +136,9 @@ footer {
   align-items: center;
   padding: 20px 200px;
   border-top: 1px solid lightgray;
+}
+
+footer span {
   color: #ff1c30;
-  font-weight: 500;
+
 }

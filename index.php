@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirDnD</title>
+    <title>Airdnd</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="shortcut icon" href="./src/images/tab-icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
@@ -33,12 +33,12 @@
             <div class="card">
                 <img src="./src/images/bag-end.jpg" alt="Bag End" class="accommodation">
                 <p>The Shire, Ariandor</p>
-                <p>R1,000 ZAR night</p>
+                <p>R2,900 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/addams-family-mansion.jpg" alt="The Addams Family Mansion" class="accommodation">
                 <p>Finding, Lost Angeles</p>
-                <p>R2,000 ZAR night</p>
+                <p>R1,500 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/kame-house.jpg" alt="Kame House" class="accommodation">
@@ -64,7 +64,7 @@
             <div class="card">
                 <img src="./src/images/tubbytronic-superdome.jpg" alt="Tubbytronic Superdome" class="accommodation">
                 <p>Homedome, Teletubbyland</p>
-                <p>R10,000 ZAR night</p>
+                <p>R3,000 ZAR night</p>
             </div>
             <div class="card">
                 <img src="./src/images/spongebob-pineapple-house.jpg" alt="Pineapple House" class="accommodation">
@@ -86,6 +86,11 @@
                 <img src="./src/images/arrow-house.jpeg" alt="Arrow House" class="accommodation">
                 <p>Garden in Arley, England</p>
                 <p>R10,000 ZAR night</p>
+            </div>
+            <div class="card">
+                <img src="./src/images/baker-family-estate.jpg" alt="Arrow House" class="accommodation">
+                <p>Dulvey Parish, Louisiana</p>
+                <p>R1,000 ZAR night</p>
             </div>
         </div>
     </main>
