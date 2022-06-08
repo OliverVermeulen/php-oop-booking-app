@@ -9,12 +9,11 @@
     <div class="register_sign-in">
         <a href="/php-oop-booking-app/src/pages/register.php" class="navigation-button">Register</a>
         <a href="/php-oop-booking-app/src/pages/register.php" class="navigation-button">Sign In</a>
-        <!-- Trigger/Open The Modal -->
-        <button id="myBtn">Open Modal</button>
 
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Sign In</button>
         <!-- The Modal -->
         <div id="myModal" class="modal">
-
             <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-header">
@@ -24,7 +23,9 @@
                 <div class="modal-body">
                     <p>Some text in the Modal Body</p>
                     <p>Some other text...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam adipisci perferendis dolores quidem ad quibusdam odit commodi animi, eius a sequi enim vitae, quae nostrum aliquid. Sapiente, accusamus perspiciatis.</p>
                 </div>
             </div>
+
         </div>
 </header>
