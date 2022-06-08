@@ -4,6 +4,7 @@
         <span>|</span>
         <span>© 2022 Viswinkel,Inc.</span>
     </div>
+    
     <div div="extra-information">
         <span>R ZAR</span>
         <span>|</span>
