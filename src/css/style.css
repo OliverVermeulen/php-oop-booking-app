@@ -76,6 +76,8 @@ header .search-btn {
 .register_sign-in_form {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
 }
 
 /* Main Body */
