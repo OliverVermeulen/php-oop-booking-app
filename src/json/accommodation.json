@@ -1,84 +1,84 @@
 [
     {
         "name" : "Bag End",        
-        "image" : "./images/bag-end.jpg",
+        "image" : "/php-oop-booking-app/src/images/bag-end.jpg",
         "location" : "The Shire, Ariandor",
         "price" : "1000",
         "description" : "Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a Hobbit-hole, and that means comfort."
     },
     {
         "name" : "The Addams Family Mansion",        
-        "image" : "./images/addams-family-mansion.jpg",
+        "image" : "/php-oop-booking-app/src/images/addams-family-mansion.jpg",
         "location" : "Finding, Lost Angeles",
         "price" : "1500",
         "description" : "Instead of being a dilapidated house, it was now practically a museum filled with odd statues, trophies, and other interesting things."
     },
     {
         "name" : "Kame House",        
-        "image" : "./images/kame-house.jpg",
+        "image" : "/php-oop-booking-app/src/images/kame-house.jpg",
         "location" : "Turtle Island, Polynesia",
         "price" : "1500",
         "description" : "Kame House is the primary training site of Goku, Krillin, and later Yamcha during the Tournament and Fortuneteller Baba Sagas."
     },
     {
         "name" : "The Flintstones House",        
-        "image" : "./images/the-flintstones-house.jpg",
+        "image" : "/php-oop-booking-app/src/images/the-flintstones-house.jpg",
         "location" : "Bedrock, Cobblestone County",
         "price" : "1200",
         "description" : "It is a brilliant and appealing architectural organic circular suburban house topped with pancaked granite slab roofs, stone walls and windows that give even more of an all-natural look, including it's wooden doors, and a garage door where the Flintmobile is parked. The interior of the house is filled with Stone-Age-like features from floor to ceiling and even furniture and artwork."
     },
     {
         "name" : "Grass Plains Village House",        
-        "image" : "./images/minecraft-village-house.jpg",
+        "image" : "/php-oop-booking-app/src/images/minecraft-village-house.jpg",
         "location" : "Village, Grass Plains",
         "price" : "1000",
         "description" : "Pay in emeralds"
     },
     {
         "name" : "Tardis",        
-        "image" : "./images/tardis.jpg",
+        "image" : "/php-oop-booking-app/src/images/tardis.jpg",
         "location" : "Anywhere, Galaxy",
         "price" : "10000",
         "description" : "While the exterior is of limited size, the TARDIS is famously 'bigger on the inside', with the interior being a whole separate dimension containing an infinite number of rooms, corridors and storage spaces, which can all change their appearances."
     },
     {
         "name" : "Tubbytronic Superdome",        
-        "image" : "./images/tubbytronic-superdome.jpg",
+        "image" : "/php-oop-booking-app/src/images/tubbytronic-superdome.jpg",
         "location" : "Homedome, Teletubbyland",
         "price" : "3000",
         "description" : "It's a grassy dome-shaped house with 2 pairs of doors at the front and back of the house. There are also 4 windows located next to the doors. There is a hole on the top connecting to the pink slide that the Teletubbies can go up and down."
     },
     {
         "name" : "Pineapple House",        
-        "image" : "./images/spongebob-pineapple-house.jpg",
+        "image" : "/php-oop-booking-app/src/images/spongebob-pineapple-house.jpg",
         "location" : "Bathurst, Eastern Cape",
         "price" : "1000",
         "description" : "Standing just under 56 feet tall, the 'Big Pineapple' outside of Bathurst, South Africa is the world's largest pineapple building."
     },    
     {
         "name" : "The Burrow",        
-        "image" : "./images/the-burrow.jpg",
+        "image" : "/php-oop-booking-app/src/images/the-burrow.jpg",
         "location" : "Devon, England",
         "price" : "1500",
         "description" : "The Burrow was the family home of the Weasley family, located on the outskirts of Ottery St Catchpole in Devon, England."
     },
     {
         "name" : "742 Evergreen Terrace",        
-        "image" : "./images/the-simpsons-house.jpg",
+        "image" : "/php-oop-booking-app/src/images/the-simpsons-house.jpg",
         "location" : "Springfield, Oregon",
         "price" : "900",
         "description" : "The Simpsons house is shown as a light pink or light brown two-story detached house with an attached garage, basement, and loft. A suburban tract house, the building is at least 50 feet wide. The arched front door leads directly into the foyer where an arch to the left leads to the sitting room, and one to the right leads into the dining room."
     },    
     {
         "name" : "Arrow House",        
-        "image" : "./images/arrow-house.jpeg",
+        "image" : "/php-oop-booking-app/src/images/arrow-house.jpeg",
         "location" : "Garden in Arley, England",
         "price" : "10000",
         "description" : "Beautiful estate in the english countryside, booze no betting, no telling fortunes."
     },
     {
         "name" : "Baker Family Estate",        
-        "image" : "./images/baker-family-estate.jpg",
+        "image" : "/php-oop-booking-app/src/images/baker-family-estate.jpg",
         "location" : "Dulvey Parish, Louisiana",
         "price" : "1000",
         "description" : "'Welcome to the house!' This large estate is situated in the Bayou away from the city, may have mold growing but don't worry."
