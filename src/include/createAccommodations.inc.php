@@ -7,18 +7,11 @@ function createAccommodations($accommodations)
 
         $index = $index + 1;
         echo " 
-            <div class='box'>
-                <h3> 
-                Accommodation: $index
-                </h3>
-                <ul>
-                    <img src=" . $accommodationArray['image'] . ">
+            <div class='card'>
+                    <img src=" . $accommodationArray['image'] . " alt=". $accommodationArray['name'] . " class='accommodation'>
                     <p>" . $accommodationArray['location'] . "</p>
                     <p>R" . $accommodationArray['price'] . " ZAR</p>
-                    <p>" . $accommodationArray['description'] ."</p>
-                </ul>
             </div> 
         ";
     }
 }
-?>
