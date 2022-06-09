@@ -1,6 +1,6 @@
 <?php
-
-function createAccommodations($accommodations) {
+function createAccommodations($accommodations)
+{
     foreach ($accommodations as $index => $accommodationArray) {
         $index = $index + 1;
         echo " 

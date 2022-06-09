@@ -6,12 +6,13 @@
         <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
     </form>
 
-    <div class="register_sign-in">
-        <form action="/php-oop-booking-app/src/pages/register.php">
-            <input type="submit" value="Register" class="sign-in-button"/>
-        </form>
-        <button id="myBtn" class="sign-in-button">Sign In</button>
-        
+    <div class="register_sign-in_modal">
+        <div class="register_sign-in">
+            <form action="/php-oop-booking-app/src/pages/register.php">
+                <input type="submit" value="Register" class="sign-in-button">
+            </form>
+            <button id="myBtn" class="sign-in-button">Sign In</button>
+        </div>
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -26,6 +27,6 @@
                     </form>
                 </div>
             </div>
-
         </div>
+    </div>
 </header>
