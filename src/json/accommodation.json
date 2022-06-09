@@ -4,21 +4,21 @@
         "image" : "./images/bag-end.jpg",
         "location" : "The Shire, Ariandor",
         "price" : "1000",
-        "description" : "Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a Hobbit-hole, and that means comfort"
+        "description" : "Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a Hobbit-hole, and that means comfort."
     },
     {
-        "name" : "Bag End",        
-        "image" : "./images/bag-end.jpg",
-        "location" : "The Shire, Ariandor",
-        "price" : "1000",
-        "description" : "Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a Hobbit-hole, and that means comfort"
+        "name" : "The Addams Family Mansion",        
+        "image" : "./images/addams-family-mansion.jpg",
+        "location" : "Finding, Lost Angeles",
+        "price" : "1500",
+        "description" : "Instead of being a dilapidated house, it was now practically a museum filled with odd statues, trophies, and other interesting things."
     },
     {
-        "name" : "Bag End",        
-        "image" : "./images/bag-end.jpg",
-        "location" : "The Shire, Ariandor",
-        "price" : "1000",
-        "description" : "Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a Hobbit-hole, and that means comfort"
+        "name" : "Kame House",        
+        "image" : "./images/kame-house.jpg",
+        "location" : "Turtle Island, Polynesia",
+        "price" : "1500",
+        "description" : "Kame House is the primary training site of Goku, Krillin, and later Yamcha during the Tournament and Fortuneteller Baba Sagas."
     },
     {
         "name" : "Bag End",        
