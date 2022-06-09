@@ -21,11 +21,11 @@
         "description" : "Kame House is the primary training site of Goku, Krillin, and later Yamcha during the Tournament and Fortuneteller Baba Sagas."
     },
     {
-        "name" : "Bag End",        
-        "image" : "./images/bag-end.jpg",
-        "location" : "The Shire, Ariandor",
-        "price" : "1000",
-        "description" : "Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a Hobbit-hole, and that means comfort"
+        "name" : "The Flintstones House",        
+        "image" : "./images/the-flintstones-house.jpg",
+        "location" : "Bedrock, Cobblestone County",
+        "price" : "1200",
+        "description" : "It is a brilliant and appealing architectural organic circular suburban house topped with pancaked granite slab roofs, stone walls and windows that give even more of an all-natural look, including it's wooden doors, and a garage door where Fred parks his Flintmobile in the garage. The interior of the house is filled with Stone-Age-like features from floor to ceiling and even furniture and artwork."
     },
     {
         "name" : "Bag End",        
