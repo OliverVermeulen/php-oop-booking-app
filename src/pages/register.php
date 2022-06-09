@@ -13,11 +13,6 @@ $head = "Register";
   <link rel="stylesheet" href="/php-oop-booking-app/src/css/style.css">
   <link rel="shortcut icon" href="/php-oop-booking-app/src/images/tab-icon.png" type="image/x-icon">
   <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
-  <style>
-    .error {
-      color: #FF0000;
-    }
-  </style>
 </head>
 
 <body>
@@ -27,7 +22,6 @@ $head = "Register";
   $name = $surname = $email = $password = $gender = "";
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
     if (empty($_POST["name"])) {
       $nameErr = "Name is required";
     } else {
@@ -83,29 +77,25 @@ $head = "Register";
 
   <h2>Register Account</h2>
   <form method="post" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-    <input type="text" name="name" value="<?= $name; ?>" placeholder="Name">
+    <input type="text" name="name" value="<?= $name; ?>" class="form-input" placeholder="Name">
     <span class="error"><?= $nameErr; ?></span>
-    <br><br>
 
-    <input type="text" name="surname" value="<?= $surname; ?>" placeholder="Surname">
+    <input type="text" name="surname" value="<?= $surname; ?>" class="form-input" placeholder="Surname">
     <span class="error"><?= $surnameErr; ?></span>
-    <br><br>
 
-    <input type="text" name="email" value="<?= $email; ?>" placeholder="Email">
+    <input type="text" name="email" value="<?= $email; ?>" class="form-input" placeholder="Email">
     <span class="error"><?= $emailErr; ?></span>
-    <br><br>
 
-    <input type="password" name="password" value="<?= $password; ?>" minlength="8" maxlength="30" placeholder="Password">
+    <input type="password" name="password" value="<?= $password; ?>" class="form-input" minlength="8" maxlength="30" placeholder="Password">
     <span class="error"><?= $passwordErr; ?></span>
-    <br><br>
 
     <label for="gender">Gender:</label>
     <input type="radio" name="gender" <?php if (isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
     <input type="radio" name="gender" <?php if (isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
     <input type="radio" name="gender" <?php if (isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
     <span class="error"><?= $genderErr; ?></span>
-    <br><br>
-    <input type="submit" name="submit" value="Submit">
+
+    <input type="submit" name="submit" value="Submit" class="sign-in-button">
   </form>
 
   <?php

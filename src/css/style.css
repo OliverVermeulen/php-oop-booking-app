@@ -37,7 +37,9 @@ header .search-btn {
   width: 30px;
   height: 30px;
 }
-header .sign-in-button {
+
+/* used in Header and Main Body */
+.sign-in-button {
   background-color: #fff;
   color: #ff1c30;
   border: 1px solid #ff1c30;
@@ -47,14 +49,14 @@ header .sign-in-button {
   transition: 0.5s;
   font-size: 14px;
 }
-header .sign-in-button:hover {
+.sign-in-button:hover {
   box-shadow: 2px 2px 5px rgb(192, 192, 192);
 }
-header .sign-in-button a {
+.sign-in-button a {
   color: #ff1c30;
   text-decoration: none;
 }
-header .register_sign-in {
+.register_sign-in {
   display: flex;
   flex-direction: row;
 }
@@ -66,7 +68,9 @@ header .register_sign-in {
   font-size: 14px;
   outline: none;
 }
-
+.error {
+  color: #FF0000;
+}
 
 /* Main Body */
 main {
