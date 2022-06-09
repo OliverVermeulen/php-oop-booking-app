@@ -20,7 +20,7 @@
                     <h2>Sign In</h2>
                 </div>
                 <div class="modal-body">
-                    <form action="" method="post">
+                    <form action="" method="post" class="register_sign-in_form">
                         <input type="text" name="email" class="form-input" placeholder="Email">
                         <input type="password" name="password" class="form-input" placeholder="Password">
                         <input type="submit" class="sign-in-button" value="Sign In">
