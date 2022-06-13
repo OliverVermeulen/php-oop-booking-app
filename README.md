@@ -23,7 +23,7 @@ The aim op this project is to make an OOP based Booking App in PHP
 ## Backlog
 
 - Add Register page and Sign In Modal and accompanying json files (complete)
-- Add booking page and comparison
+- Add booking page and comparison (complete)
 - Add ability to search for accommodations
 - Add in email extension via Composer
 
