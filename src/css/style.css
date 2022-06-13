@@ -215,32 +215,27 @@ footer span {
     opacity: 1;
   }
 }
-
-/* The Close Button */
 .close {
   color: black;
   float: right;
   font-size: 28px;
 }
-
 .close:hover,
 .close:focus {
   color: #ff1c30;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal-header {
   padding: 2px 16px;
   color: #ff1c30;
   border-bottom: 1px solid lightgray;
 }
-
 .modal-body {
   padding: 2px 16px;
 }
 
-.info-modal {
+.booking-page-btn {
   float: right;
   background-color: #ff1c30;
   color: #fff;
@@ -253,7 +248,7 @@ footer span {
   transition: 0.5s;
   cursor: pointer;
 }
-.info-modal:hover {
+.booking-page-btn:hover {
   box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 
@@ -261,19 +256,17 @@ footer span {
 .booking-page {
   font-size: 16px;
   font-weight: 400;
-  
 }
-
 .accommodation-booking {
-  width: 50%;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   padding: 10px;
 }
-
 .accommodation-img {
   width: 100%;
+  
 }
-
 .accommodation-data {
   display: flex;
   flex-direction: row;
@@ -281,10 +274,9 @@ footer span {
 }
 
 .accommodation-info {
-  width: 400px;
-  margin-right: 10px;
+  width: 500px;
+  margin-right: 20px;
 }
-
 .accommodation-location {
   font-size: 22px;
   font-weight: 700;
@@ -292,7 +284,6 @@ footer span {
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
-
 .accommodation-description {
   line-height: 20px;
   font-weight: 400;
