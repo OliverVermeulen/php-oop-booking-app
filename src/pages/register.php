@@ -88,13 +88,13 @@ $head = "Register";
 
     <input type="password" name="password" value="<?= $password; ?>" class="form-input" minlength="8" maxlength="30" placeholder="Password">
     <span class="error"><?= $passwordErr; ?></span>
-<div>
-    <label for="gender">Gender:</label>
-    <input type="radio" name="gender" <?php if (isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
-    <input type="radio" name="gender" <?php if (isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
-    <input type="radio" name="gender" <?php if (isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
-    <span class="error"><?= $genderErr; ?></span>
-</div>
+    <div>
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" <?php if (isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
+      <input type="radio" name="gender" <?php if (isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
+      <input type="radio" name="gender" <?php if (isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
+      <span class="error"><?= $genderErr; ?></span>
+    </div>
     <input type="submit" name="submit" value="Submit" class="sign-in-button">
   </form>
 
