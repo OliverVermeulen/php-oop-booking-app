@@ -6,7 +6,7 @@ function createAccommodations($accommodations)
         echo " 
             <div class='card'>
                 <img src=" . $accommodationArray['image'] . " alt=" . $accommodationArray['name'] . " class='accommodation'>
-                <form action='/php-oop-booking-app/src/pages/register.php'>
+                <form action='/php-oop-booking-app/src/pages/booking.php'>
                     <button class='info-modal'><i class='fa fa-info'></i></button>
                 </form>
                 <p>" . $accommodationArray['location'] . "</p>

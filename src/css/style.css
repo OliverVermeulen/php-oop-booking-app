@@ -256,3 +256,19 @@ footer span {
 .info-modal:hover {
   box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
+
+/* booking page */
+.booking-page {
+  width: 40%;
+  font-size: 16px;
+}
+
+
+.description-and-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.booking-form {
+  border: 1px solid lightgray;
+}
