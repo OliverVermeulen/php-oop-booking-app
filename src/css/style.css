@@ -191,17 +191,17 @@ main {
 }
 .accommodation-img {
   width: 100%;
-  padding: 10px 0px 10px 0px;
+  padding: 5px 0px 10px 0px;
 }
 .accommodation-data {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
 .accommodation-info {
-  width: 500px;
+  max-width: 500px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 .accommodation-location {
   font-size: 22px;
@@ -214,7 +214,6 @@ main {
   line-height: 20px;
   font-weight: 400;
 }
-
 .booking-form {
   border: 1px solid lightgray;
   border-radius: 20px;
@@ -291,6 +290,14 @@ footer span {
   }
   main {
     padding: 10px;
+  }
+  .accommodation-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .accommodation-info {
+    margin-right: 0px;
   }
   footer {
     padding: 10px;
