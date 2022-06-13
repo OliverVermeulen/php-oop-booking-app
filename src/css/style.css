@@ -239,3 +239,20 @@ footer span {
 .modal-body {
   padding: 2px 16px;
 }
+
+.info-modal {
+  float: right;
+  background-color: #ff1c30;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.info-modal:hover {
+  box-shadow: 2px 2px 5px rgb(151, 151, 151);
+}
