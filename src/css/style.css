@@ -70,7 +70,7 @@ header .search-btn {
   width: 200px;
 }
 .error {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .register_sign-in_form {
@@ -258,17 +258,61 @@ footer span {
 }
 
 /* booking page */
+
 .booking-page {
-  width: 40%;
   font-size: 16px;
-}
-
-
-.description-and-form {
-  display: flex;
-  flex-direction: row;
+  font-weight: 400;
 }
 
 .booking-form {
   border: 1px solid lightgray;
+  border-radius: 20px;  
+  width: 300px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(192, 192, 192);  
+}
+
+.pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.price-per-night {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.booking-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-costs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+}
+
+.booking-btn {
+  background-color: #ff1c30;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.stay-length {
+  background-color: transparent;
+  color: lightgray;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
 }

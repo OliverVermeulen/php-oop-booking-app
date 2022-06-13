@@ -1,22 +1,29 @@
 <div class="booking-page">
-    <h1>Bag end</h1>
-    <img src="/php-oop-booking-app/src/images/bag-end.jpg" alt="" style="width:100%">
+    <form action="" method="post" class="booking-form">
 
-    <div class="description-and-form">
-        <p>Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a Hobbit-hole, and that means comfort.</p>
+        <div class="pricing">
+            <p class="price-per-night">R 1200 ZAR </p>
+            <p> per night</p>
+        </div>
 
-        <form action="" method="post" class="booking-form">
-            <p>R1200 ZAR per night</p>
-            <label for="length-of-stay">Length Of Stay:</label>
-            <input type="date" name="length-of-stay" id="">
-            <input type="submit" value="Reserve">
-            <select id="cars" name="cars">
-                <option value="volvo">Volvo XC90</option>
-                <option value="saab">Saab 95</option>
-                <option value="mercedes">Mercedes SLK</option>
-                <option value="audi">Audi TT</option>
+        <div class="booking-inputs">
+            <label for="stay-length">Length Of Stay:</label>
+            <input type="date" name="stay-length" class="stay-length">
+
+            <input type="submit" value="Reserve" class="booking-btn">
+
+            <select class="booking-btn" name="accommodations">
+                <option value="volvo">fhgfh</option>
+                <option value="saab">fhdh</option>
+                <option value="mercedes">ghfh</option>
+                <option value="audi">fghfg</option>
             </select>
-            <p>R1200 ZAR x 7</p>
-        </form>
-    </div>
+        </div>
+
+        <div class="booking-costs">
+            <p class="price-breakdown">R1200 x 10 nights</p>
+            <p class="total">R12000</p>
+        </div>
+
+    </form>
 </div>
