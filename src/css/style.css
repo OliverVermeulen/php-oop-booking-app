@@ -258,44 +258,84 @@ footer span {
 }
 
 /* booking page */
-
 .booking-page {
   font-size: 16px;
   font-weight: 400;
+  
 }
 
+.accommodation-booking {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.accommodation-img {
+  width: 100%;
+}
+
+.accommodation-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.accommodation-info {
+  width: 400px;
+  margin-right: 10px;
+}
+
+.accommodation-location {
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.accommodation-description {
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* form */
 .booking-form {
   border: 1px solid lightgray;
-  border-radius: 20px;  
+  border-radius: 20px;
   width: 300px;
+  height: fit-content;
   padding: 10px;
-  box-shadow: 2px 2px 5px rgb(192, 192, 192);  
+  box-shadow: 2px 2px 5px rgb(192, 192, 192);
 }
-
 .pricing {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
-
 .price-per-night {
   font-size: 22px;
   font-weight: 700;
   margin-right: 5px;
 }
-
 .booking-inputs {
   display: flex;
   flex-direction: column;
 }
-
-.booking-costs {
+.check-in-out {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  color: gray;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
-
+.stay-length {
+  background-color: transparent;
+  color: gray;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+}
 .booking-btn {
   background-color: #ff1c30;
   color: #fff;
@@ -305,14 +345,11 @@ footer span {
   margin-bottom: 10px;
   border-radius: 10px;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
 }
-
-.stay-length {
-  background-color: transparent;
-  color: lightgray;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 10px;
+.booking-costs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
 }
