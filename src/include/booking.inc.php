@@ -1,6 +1,7 @@
 <div class="booking-page">
     <div class="accommodation-booking">
-        <img src="/php-oop-booking-app/src/images/bag-end.jpg" alt="" class="accommodation-img">
+        <h2>Bag End</h2>
+        <img src="/php-oop-booking-app/src/images/bag-end.jpg" alt="Bag-end" class="accommodation-img">
 
         <div class="accommodation-data">
             <div class="accommodation-info">
