@@ -3,7 +3,7 @@
 
     <form action="#" method="POST" class="search-bar">
         <input type="search" name="search" class="form-input" placeholder="Search">
-        <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+        <!-- <button type="submit" class="search-btn"><i class="fa fa-search"></i></button> -->
     </form>
 
     <div class="register_sign-in_modal">
