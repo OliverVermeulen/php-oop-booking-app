@@ -1,3 +1,4 @@
+<!-- Main Body Module -->
 <?php
 require "/MAMP/htdocs/php-oop-booking-app/src/include/createAccommodations.inc.php";
 $_SESSION['books'] = [];

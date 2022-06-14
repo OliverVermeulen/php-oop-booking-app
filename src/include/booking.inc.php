@@ -1,4 +1,5 @@
-<div class="booking-page">
+<!-- Booking Page Module -->
+<main class="booking-page">
     <div class="accommodation-booking">
         <h2>Bag End</h2>
         <img src="/php-oop-booking-app/src/images/bag-end.jpg" alt="Bag-end" class="accommodation-img">
@@ -34,4 +35,4 @@
             </form>
         </div>
     </div>
-</div>
+</main>

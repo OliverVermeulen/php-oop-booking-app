@@ -1,3 +1,4 @@
+<!-- Accommodation Creation Module -->
 <?php
 function createAccommodations($accommodations)
 {
