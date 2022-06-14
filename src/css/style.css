@@ -28,121 +28,20 @@ header .logo {
   max-width: 110px;
   height: auto;
 }
-header .search-bar {
-  border: 1px solid #ff1c30;
-  border-radius: 50px;
-  padding: 6px 16px;
-}
-header .search-btn {
-  background-color: #ff1c30;
-  color: #fff;
-  border: none;
-  border-radius: 50px;
-  width: 30px;
-  height: 30px;
-}
-
-/* used in Header and Main Body */
-.sign-in-button {
-  background-color: #fff;
+header .media-icon {
+  font-size: 30px;
   color: #ff1c30;
-  border: 1px solid #ff1c30;
-  border-radius: 50px;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: 0.5s;
-  font-size: 14px;
-  cursor: pointer;
+  transition-duration: 0.2s;
 }
-.sign-in-button:hover {
-  box-shadow: 2px 2px 5px rgb(192, 192, 192);
-}
-.sign-in-button a {
-  color: #ff1c30;
-  text-decoration: none;
-}
-.register_sign-in {
-  display: flex;
-  flex-direction: row;
-}
-.form-input {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid lightgray;
-  height: 25px;
-  font-size: 14px;
-  outline: none;
-  width: 200px;
-}
-.error {
-  color: #ff0000;
-}
-/* Sign In Modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.24);
-}
-.modal-content {
-  position: relative;
-  background-color: #fff;
-  margin: auto;
-  padding: 0;
-  width: 95%;
-  max-width: 600px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  animation-name: animatetop;
-  animation-duration: 0.4s;
-  border-radius: 15px;
-}
-@keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-.close {
-  color: black;
-  float: right;
-  font-size: 28px;
-}
-.close:hover,
-.close:focus {
-  color: #ff1c30;
-  text-decoration: none;
-  cursor: pointer;
-}
-.modal-header {
-  padding: 2px 16px;
-  color: #ff1c30;
-  border-bottom: 1px solid lightgray;
-}
-.modal-body {
-  padding: 2px 16px;
-}
-.register_sign-in_form {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 90%;
+header .media-icon:active {
+  color: #ff5261;
 }
 
 /* Main Body */
 main {
   padding: 0px 200px;
 }
-/* index.php */
+/* main.inc.php */
 .cards {
   max-width: 1500px;
   margin: 0 auto;
@@ -183,7 +82,7 @@ main {
   box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 
-/* booking.php */
+/* booking.inc.php */
 .booking-page {
   font-size: 16px;
   font-weight: 400;
