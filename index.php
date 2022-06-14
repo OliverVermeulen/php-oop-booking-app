@@ -21,8 +21,27 @@ $head = "Airdnd";
     <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/header.inc.php") ?>
 
     <!-- Main -->
-    <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/main.inc.php") ?>
+    <?php
+    $request = $_SERVER['REQUEST_URI'];
+    $basepath = "php-oop-booking-app/";
+    $request = str_replace($basepath, "", $request);
 
+    switch ($request) {
+        case '/':
+            require __DIR__ . '/src/include/main.inc.php';
+            break;
+        case '':
+            require __DIR__ . '/src/include/main.inc.php';
+            break;
+        case '/bookings':
+            require __DIR__ . '/src/include/booking.inc.php';
+            break;
+        default:
+            http_response_code(404);
+            echo "page not found";
+            break;
+    }
+    ?>
     <!-- Footer -->
     <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/footer.inc.php") ?>
 </body>
