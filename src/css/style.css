@@ -52,6 +52,7 @@ header .search-btn {
   text-decoration: none;
   transition: 0.5s;
   font-size: 14px;
+  cursor: pointer;
 }
 .sign-in-button:hover {
   box-shadow: 2px 2px 5px rgb(192, 192, 192);
