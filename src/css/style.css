@@ -9,6 +9,10 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+::selection {
+  background: #ff5261;
+  color: #fff;
+}
 
 /* Header */
 header {
