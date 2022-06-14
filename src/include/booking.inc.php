@@ -16,10 +16,14 @@
                     <p> per night</p>
                 </div>
                 <div class="booking-inputs">
+                    <!-- <input type="text">
+                    <input type="number"> -->
+
                     <div class="check-in-out">
                         <input type="date" name="stay-length" class="stay-length">
                         <input type="date" name="stay-length" class="stay-length">
                     </div>
+                    
                     <input type="submit" value="Reserve" class="booking-btn">
                     <select class="booking-btn" name="accommodations">
                         <option value="volvo">Addams Family House</option>

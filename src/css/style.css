@@ -41,6 +41,7 @@ header .media-icon:active {
 main {
   padding: 0px 200px;
 }
+
 /* main.inc.php */
 .cards {
   max-width: 1500px;
@@ -80,6 +81,9 @@ main {
 }
 .card .booking-page-btn:hover {
   box-shadow: 2px 2px 5px rgb(151, 151, 151);
+}
+.booking-page-btn:active {
+  background-color: #ff5261;
 }
 
 /* booking.inc.php */
