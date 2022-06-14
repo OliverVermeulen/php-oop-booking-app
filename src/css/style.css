@@ -242,14 +242,25 @@ footer span {
     padding: 10px 50px;
   }
 }
-@media (min-width: 1281px) {
+@media (min-width: 1281px) and (max-width: 1899px)  {
   header {
-    padding: 10px 70px;
+    padding: 10px 100px;
   }
   main {
-    padding: 10px 70px;
+    padding: 10px 100px;
   }
   footer {
-    padding: 10px 70px;
+    padding: 10px 100px;
+  }
+}
+@media (min-width: 1900px)  {
+  header {
+    padding: 10px 200px;
+  }
+  main {
+    padding: 10px;
+  }
+  footer {
+    padding: 10px 200px;
   }
 }
