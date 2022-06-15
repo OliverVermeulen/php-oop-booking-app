@@ -34,7 +34,7 @@ $head = "Airdnd";
             require __DIR__ . '/src/include/main.inc.php';
             break;
         case '/bookings':
-            require __DIR__ . '/src/include/booking.inc.php';
+            require __DIR__ . '/src/include/test.php';
             break;
         default:
             http_response_code(404);
