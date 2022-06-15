@@ -19,22 +19,24 @@ function createBookings($accommodations)
                                 <p class='price-per-night'>R" . $accommodationArray['price'] . " ZAR</p>
                                 <p> per night</p>
                             </div>
+
                             <div class='booking-inputs'>
-                            <label for='name'>Name </label>
-                            <input type='text' name='name'>
+                                <input type='hidden' name='rates' value=" . $accommodationArray['name'] . ">
+                                <label for='name'>Name </label>
+                                <input type='text' name='name'>
 
-                            <label for='surname'>Surname </label>
-                            <input type='surname' name='surname'>
+                                <label for='surname'>Surname </label>
+                                <input type='surname' name='surname'>
 
-                            <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
+                                <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
 
-                            <label for='start'>Start Date: </label>
-                            <input type='date' name='start'>
+                                <label for='start'>Start Date: </label>
+                                <input type='date' name='start'>
 
-                            <label for='end'>End Date: </label>
-                            <input type='date' name='end'>
+                                <label for='end'>End Date: </label>
+                                <input type='date' name='end'>
 
-                                <input type='submit' value='Reserve' class='booking-btn'>
+                                <input type='submit' value='Reserve' name='submit' class='booking-btn'>
                             </div>
                         </form>
 

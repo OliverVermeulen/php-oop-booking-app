@@ -5,26 +5,21 @@
 
 session_start();
 
-// require "./includes/calculateAmount.php";
-// require "./includes/calculateDays.inc.php";
+require "/MAMP/htdocs/php-oop-booking-app/src/include/calcAmount.inc.php";
+require "/MAMP/htdocs/php-oop-booking-app/src/include/calcDays.inc.php";
 
 
 if (isset($_POST['submit'])) {
-
-
     $name = $_POST['name'];
     $surname = $_POST['surname'];
     $start = $_POST['start'];
     $end = $_POST['end'];
     $rate = $_POST['rates'];
 
-    // compares the whole not just the day
     if ($start >= $end) {
-
         $_SESSION['dateError'] = "Duration of stay must be longer than 1 day.. Please fill in the form again.";
         header("Location: index.php");
     } else {
-
         unset($_SESSION['dateError']);
 
         $numDays = calculateDays($start, $end);
@@ -51,13 +46,11 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-
     <a href="/php-oop-booking-app/">
         <button>
-            Back To Home
+            Home
         </button>
     </a>
-
 </body>
 
 </html>
