@@ -20,7 +20,7 @@ $head = "Booking";
     <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/header.inc.php") ?>
 
     <!-- Main -->
-    <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/booking.inc.php") ?>
+    <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/test.php") ?>
 
     <!-- Footer -->
     <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/footer.inc.php") ?>

@@ -33,6 +33,9 @@ $head = "Airdnd";
         case '':
             require __DIR__ . '/src/include/main.inc.php';
             break;
+        case '/home':
+            require __DIR__ . '/src/include/main.inc.php';
+            break;
         case '/bookings':
             require __DIR__ . '/src/include/test.php';
             break;
@@ -42,6 +45,7 @@ $head = "Airdnd";
             break;
     }
     ?>
+
     <!-- Footer -->
     <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/footer.inc.php") ?>
 </body>
