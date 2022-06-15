@@ -20,24 +20,24 @@ function createBookings($accommodations)
                                 <p> per night</p>
                             </div>
                             <div class='booking-inputs'>
-                                <div class='check-in-out'>
-                                    <input type='date' name='stay-length' class='stay-length'>
-                                    <input type='date' name='stay-length' class='stay-length'>
-                                </div>
+                            <label for='name'>Name </label>
+                            <input type='text' name='name'>
+
+                            <label for='surname'>Surname </label>
+                            <input type='surname' name='surname'>
+
+                            <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
+
+                            <label for='start'>Start Date: </label>
+                            <input type='date' name='start'>
+
+                            <label for='end'>End Date: </label>
+                            <input type='date' name='end'>
+
                                 <input type='submit' value='Reserve' class='booking-btn'>
-                                <select class='booking-btn' name='accommodations'>
-                                    <option value='volvo'>Addams Family House</option>
-                                    <option value='saab'>Pineapple House</option>
-                                    <option value='mercedes'>ghfh</option>
-                                    <option value='audi'>fghfg</option>
-                                </select>
-                            </div>
-                            <div class='booking-costs'>
-                                <p class='price-breakdown'>R1200 x 10 nights</p>
-                                <p class='total'>R12000</p>
                             </div>
                         </form>
-                        
+
                     </div>
                 </div>
             ";
