@@ -13,7 +13,8 @@ function createBookings($accommodations)
                             <p class='accommodation-location'>" . $accommodationArray['location'] . "</p>
                             <p class='accommodation-description'>" . $accommodationArray['description'] . "</p>
                         </div>
-                        <form action='' method='post' class='booking-form'>
+
+                        <form action='src/pages/test3.php' method='post' class='booking-form'>
                             <div class='pricing'>
                                 <p class='price-per-night'>R" . $accommodationArray['price'] . " ZAR</p>
                                 <p> per night</p>
@@ -36,6 +37,7 @@ function createBookings($accommodations)
                                 <p class='total'>R12000</p>
                             </div>
                         </form>
+                        
                     </div>
                 </div>
             ";
