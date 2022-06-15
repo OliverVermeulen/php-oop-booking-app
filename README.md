@@ -2,30 +2,38 @@
 
 ## Description
 
-The aim op this project is to make an OOP based Booking App in PHP
+The aim of this project is to make a OOP based booking app in PHP
 
 ## Features
 
-1. The ability to sign in and out
-2. The ability to search for specific accommodations
-3. The ability to compare two accommodations
-4. The ability to book reservations
-5. The ability to view previous bookings
+1. The ability to book reservations at accommodations
+2. The ability to check previous reservations
+3. The ability to compare different accommodations
+4. The ability to to send reservations to your email
 
 ## MVP
 
-- Forms must have frontend validation
-- User must be allowed to compare two accommodations
-- Each hotel must have a different daily rate
-- When the user clicks book an email must be populated and sent to the users email address
+- The forms must have frontend validation
+- The site must be responsive
+- The backend must make use of OOP
+- Each hotel should have a different daily rate
+- Emails should be sent to the users email with the details of their booking
 - Data must persist between pages
 
 ## Backlog
 
-- Add Register page and Sign In Modal and accompanying json files (complete)
-- Add booking page and comparison (complete)
-- Add ability to search for accommodations
-- Add in email extension via Composer
+- Add routing switch (complete)
+- Add in PHPMailer in via Composer (complete)
+- Add in email functionality
+- Add in json files for accommodations and reservations
+- Add in comparison selector 
+
+## Future Additions
+
+- A search bar that filter to search for specific accommodations
+- A dedicated Register, Sign In and Sign Out feature
+- Differing rates based on the time of the year
+- The ability to add in accommodations via a form
 
 ## Links
 
