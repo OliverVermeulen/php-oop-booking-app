@@ -22,22 +22,25 @@ function createBookings($accommodations)
 
                             <div class='booking-inputs'>
                                 <input type='hidden' name='rates' value=" . $accommodationArray['name'] . ">
-                                <label for='name'>Name</label>
-                                <input type='text' name='name'>
+                                <input type='text' name='name' class='booking-input' placeholder='Name'>
 
-                                <label for='surname'>Surname</label>
-                                <input type='text' name='surname'>
+                                <input type='text' name='surname' class='booking-input' placeholder='Surname'>
 
-                                <label for='email'>Email</label>
-                                <input type='text' name='email'>
+                                <input type='text' name='email' class='booking-input' placeholder='Email'>
 
                                 <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
 
-                                <label for='start'>Start Date:</label>
-                                <input type='date' name='start'>
+                                <div class='check-in-out'>
+                                    <div class='start-end'>
+                                        <label for='start' class='booking-label'>Start Date:</label>
+                                        <input type='date' name='start'>
+                                    </div>
 
-                                <label for='end'>End Date:</label>
-                                <input type='date' name='end'>
+                                    <div class='start-end'>
+                                        <label for='end' class='booking-label'>End Date:</label>
+                                        <input type='date' name='end'>
+                                    </div>
+                                </div>
 
                                 <input type='submit' value='Reserve' name='submit' class='booking-btn'>
                             </div>

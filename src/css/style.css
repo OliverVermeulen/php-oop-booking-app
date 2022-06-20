@@ -145,13 +145,7 @@ main {
   display: flex;
   flex-direction: column;
 }
-.check-in-out {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid gray;
-  margin-bottom: 10px;
-  border-radius: 10px;
-}
+
 .stay-length {
   background-color: transparent;
   color: gray;
@@ -267,4 +261,32 @@ footer span {
   footer {
     padding: 10px 200px;
   }
+}
+
+.check-in-out {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.booking-input {
+  background-color: transparent;
+  color: gray;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+
+.start-end {
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.booking-label {
+  color: gray;
+  font-size: 15px;
 }
