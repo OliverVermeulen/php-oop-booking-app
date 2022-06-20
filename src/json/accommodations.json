@@ -5,6 +5,7 @@
         "image" : "/php-oop-booking-app/src/images/bag-end.jpg",
         "location" : "The Shire, Ariandor",
         "price" : 799,
+        "range" : "low",
         "description" : "It's a Hobbit-hole, and that means comfort. Perfect for a romantic getaway; or for a bunch of people to show up unannounced."
     },
     {
@@ -13,6 +14,7 @@
         "image" : "/php-oop-booking-app/src/images/addams-family-mansion.jpg",
         "location" : "Finding, Lost Angeles",
         "price" : 9500,
+        "range" : "high",
         "description" : "Practically a museum filled with odd statues, trophies, and other interesting things. Perfect for large unconventional family gatherings. Come for the stargazing, stay because it's cursed."
     },
     {
@@ -21,6 +23,7 @@
         "image" : "/php-oop-booking-app/src/images/kame-house.jpg",
         "location" : "Turtle Island, Polynesia",
         "price" : 530,
+        "range" : "low",
         "description" : "Owner may be creepy but the location is unbeatable (like Goku). Smells pleasantly like oranges. Perfect for an affordable one person stay (or if you have to save the world)."
     },
     {
@@ -29,6 +32,7 @@
         "image" : "/php-oop-booking-app/src/images/the-flintstones-house.jpg",
         "location" : "Bedrock, Cobblestone County",
         "price" : 1960,
+        "range" : "medium",
         "description" : "It is a brilliant and appealing architectural organic circular suburban house topped with a pancake granite slab roof, stone walls and windows that give even more of an all-natural look. The interior of the house is filled with Stone-Age-like features and the beds rock!"
     },
     {
@@ -37,6 +41,7 @@
         "image" : "/php-oop-booking-app/src/images/minecraft-village-house.jpg",
         "location" : "Village, Grass Plains",
         "price" : 1000,
+        "range" : "low",
         "description" : "Cottage in rural village equipped with bed and torch. Not the best neighbourhood, some locals may turn into zombies. Money means nothing in the village, pay in emeralds for services."
     },
     {
@@ -45,6 +50,7 @@
         "image" : "/php-oop-booking-app/src/images/tardis.jpg",
         "location" : "Anywhere, Galaxy",
         "price" : 110011,
+        "range" : "high",
         "description" : "While the exterior is of limited size, the interior offers a host of possibilities, being a whole separate dimension containing an infinite number of rooms and such. Can fit multiple Daleks at a time"
     },
     {
@@ -53,6 +59,7 @@
         "image" : "/php-oop-booking-app/src/images/tubbytronic-superdome.jpg",
         "location" : "Homedome, Teletubbyland",
         "price" : 15000,
+        "range" : "high",
         "description" : "It's a grassy dome-shaped house and there is a hole on the top connecting to an indoor slide that goes up and down. Comes with demented Roomba."
     },
     {
@@ -61,6 +68,7 @@
         "image" : "/php-oop-booking-app/src/images/spongebob-pineapple-house.jpg",
         "location" : "Bathurst, Eastern Cape",
         "price" : 1500,
+        "range" : "medium",
         "description" : "Nestled in the rolling hills of the Eastern Cape lies a structure like no other. Perfect for a discreet weekend away. Disclaimer; is not under the sea"
     },    
     {
@@ -69,6 +77,7 @@
         "image" : "/php-oop-booking-app/src/images/the-burrow.jpg",
         "location" : "Devon, England",
         "price" : 2001,
+        "range" : "medium",
         "description" : "Room in a family home situated in the English countryside. Easy fireplace transportation, flying car trips on appointment."
     },
     {
@@ -77,6 +86,7 @@
         "image" : "/php-oop-booking-app/src/images/the-simpsons-house.jpg",
         "location" : "Springfield, Oregon",
         "price" : 1987,
+        "range" : "medium",
         "description" : "Two-story detached house with an attached garage, basement, and loft. The arched front door leads directly into the foyer where an arch to the left leads to the sitting room, and one to the right leads into the dining room."
     },    
     {
@@ -85,6 +95,7 @@
         "image" : "/php-oop-booking-app/src/images/arrow-house.jpeg",
         "location" : "Garden in Arley, England",
         "price" : 10000,
+        "range" : "high",
         "description" : "Beautiful estate in the English countryside, may hear occasional gunshots. Perfect for depression era reenactments"
     },
     {
@@ -93,6 +104,7 @@
         "image" : "/php-oop-booking-app/src/images/baker-family-estate.jpg",
         "location" : "Dulvey Parish, Louisiana",
         "price" : 777,
+        "range" : "low",
         "description" : "'Welcome to the house, son!' This large estate is situated in the Bayou away from the city, may have mould growing but don't worry, it adds to the rustic charm."
     }
 ]
