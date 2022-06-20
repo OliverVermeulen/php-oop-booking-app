@@ -12,6 +12,7 @@ require "/MAMP/htdocs/php-oop-booking-app/src/include/calcDays.inc.php";
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $surname = $_POST['surname'];
+    $email = $_POST['email'];
     $start = $_POST['start'];
     $end = $_POST['end'];
     $rate = $_POST['rates'];
@@ -28,6 +29,7 @@ if (isset($_POST['submit'])) {
         echo "
             <p>Name: $name</p>
             <p>Surname: $surname</p>
+            <p>Email: $email</p>
             <p>Start Date: $start</p>
             <p>End Date: $end</p>
             <p>Rates per day: R $rate</p>

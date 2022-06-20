@@ -14,7 +14,7 @@ function createBookings($accommodations)
                             <p class='accommodation-description'>" . $accommodationArray['description'] . "</p>
                         </div>
 
-                        <form action='src/pages/test3.php' method='post' class='booking-form'>
+                        <form action='/php-oop-booking-app/src/pages/test3.php' method='post' class='booking-form'>
                             <div class='pricing'>
                                 <p class='price-per-night'>R" . $accommodationArray['price'] . " ZAR</p>
                                 <p> per night</p>
@@ -22,18 +22,21 @@ function createBookings($accommodations)
 
                             <div class='booking-inputs'>
                                 <input type='hidden' name='rates' value=" . $accommodationArray['name'] . ">
-                                <label for='name'>Name </label>
+                                <label for='name'>Name</label>
                                 <input type='text' name='name'>
 
-                                <label for='surname'>Surname </label>
-                                <input type='surname' name='surname'>
+                                <label for='surname'>Surname</label>
+                                <input type='text' name='surname'>
+
+                                <label for='email'>Email</label>
+                                <input type='text' name='email'>
 
                                 <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
 
-                                <label for='start'>Start Date: </label>
+                                <label for='start'>Start Date:</label>
                                 <input type='date' name='start'>
 
-                                <label for='end'>End Date: </label>
+                                <label for='end'>End Date:</label>
                                 <input type='date' name='end'>
 
                                 <input type='submit' value='Reserve' name='submit' class='booking-btn'>
