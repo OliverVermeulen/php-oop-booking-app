@@ -267,6 +267,9 @@ footer span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 12px;
 }
 
 .booking-input {
@@ -282,11 +285,20 @@ footer span {
 }
 
 .start-end {
-  border: 1px solid gray;
-  border-radius: 15px;
+  border-left: 0.1px solid gray;
 }
 
 .booking-label {
   color: gray;
   font-size: 15px;
+  padding-left: 10px;
+}
+
+.date-input {
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  font-size: 13px;
+  outline: transparent;
+color: gray;
 }

@@ -16,9 +16,6 @@
                     <p> per night</p>
                 </div>
                 <div class="booking-inputs">
-                    <!-- <input type="text">
-                    <input type="number"> -->
-
                     <div class="check-in-out">
                         <input type="date" name="stay-length" class="stay-length">
                         <input type="date" name="stay-length" class="stay-length">

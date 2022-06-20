@@ -31,14 +31,14 @@ function createBookings($accommodations)
                                 <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
 
                                 <div class='check-in-out'>
-                                    <div class='start-end'>
+                                    <div>
                                         <label for='start' class='booking-label'>Start Date:</label>
-                                        <input type='date' name='start'>
+                                        <input type='date' name='start' class='date-input'>
                                     </div>
 
                                     <div class='start-end'>
                                         <label for='end' class='booking-label'>End Date:</label>
-                                        <input type='date' name='end'>
+                                        <input type='date' name='end' class='date-input'>
                                     </div>
                                 </div>
 
