@@ -18,14 +18,21 @@ $head = "Airdnd";
 </head>
 
 <body>
+
     <!-- Header -->
-    <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/header.inc.php") ?>
+    <?php 
+    include("/MAMP/htdocs/php-oop-booking-app/vendor/autoload.php");
+    
+    include("/MAMP/htdocs/php-oop-booking-app/src/include/header.inc.php");
+    ?>
 
     <!-- Main -->
     <?php
     $request = $_SERVER['REQUEST_URI'];
     $basepath = "php-oop-booking-app/";
     $request = str_replace($basepath, "", $request);
+    $request = strtok($request, '?');
+
 
     switch ($request) {
         case '/':

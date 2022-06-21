@@ -2,9 +2,11 @@
 <?php
 function createBookings($accommodations)
 {
+    $hotel_id = $_GET["hotel_id"];
     foreach ($accommodations as $index => $accommodationArray) {
         $index = $index + 1;
-        echo " 
+        if ($index == $hotel_id) {
+            echo " 
                 <div class='accommodation-booking'>
                     <h2>" . $accommodationArray['name'] . "</h2>
                     <img src=" . $accommodationArray['image'] . " alt=" . $accommodationArray['name'] . " class='accommodation-img'>
@@ -49,5 +51,6 @@ function createBookings($accommodations)
                     </div>
                 </div>
             ";
+        }
     }
 }

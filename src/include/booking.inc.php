@@ -1,4 +1,4 @@
-<!-- Booking Page Module -->
+<!-- Booking Page Module
 <main class="booking-page">
     <div class="accommodation-booking">
         <h2>Bag End</h2>
@@ -36,4 +36,4 @@
             </form>
         </div>
     </div>
-</main>
+</main> -->
