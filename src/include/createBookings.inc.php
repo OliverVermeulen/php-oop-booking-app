@@ -8,14 +8,14 @@ function createBookings($accommodations) {
             echo " 
                 <div class='accommodation-booking'>
                     <h2>" . $accommodationArray['address'] . "</h2>
-                    <img src=" . $accommodationArray['image'] . " alt=" . $accommodationArray['address'] . " class='accommodation-img' title=" . $accommodationArray['address'] . ">
+                    <img src=" . $accommodationArray['image'] . " alt=\"" . $accommodationArray['address'] . "\" class='accommodation-img' title=\"" . $accommodationArray['address'] . "\">
 
                     <div class='accommodation-data'>
                         <div class='accommodation-info'>
                             <p class='accommodation-location'>" . $accommodationArray['location'] . "</p>
                             <p class='accommodation-description'>" . $accommodationArray['description'] . "</p>
 <div class='dropdown'>
-  <button class='dropbtn'>Dropdown</button>
+  <button class='dropbtn'>Compare</button>
   <div class='dropdown-content'>
   <a href='#'>Link 1</a>
   <a href='#'>Link 2</a>
@@ -31,8 +31,8 @@ function createBookings($accommodations) {
                             </div>
 
                             <div class='booking-inputs'>
-                                <input type='hidden' name='address' value=" . $accommodationArray['address'] . ">
-                                <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
+                                <input type='hidden' name='address' value=\"" . $accommodationArray['address'] . "\">
+                                <input type='hidden' name='rates' value=\"" . $accommodationArray['price'] . "\">
 
                                 <input type='text' name='name' class='booking-input' placeholder='Name' required>
                                 <input type='text' name='surname' class='booking-input' placeholder='Surname' required>

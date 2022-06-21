@@ -301,12 +301,14 @@ footer span {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #ff1c30;
   color: white;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
+  font-weight: 600;
   border: none;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .dropdown {
