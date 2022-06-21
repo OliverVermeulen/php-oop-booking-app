@@ -1,4 +1,4 @@
-<!-- Accommodation Creation Module -->
+<!-- Booking Creation Module -->
 <?php
 function createBookings($accommodations)
 {
@@ -24,14 +24,11 @@ function createBookings($accommodations)
 
                             <div class='booking-inputs'>
                                 <input type='hidden' name='rates' value=" . $accommodationArray['name'] . ">
-                                
-                                <input type='text' name='name' class='booking-input' placeholder='Name' required>
-
-                                <input type='text' name='surname' class='booking-input' placeholder='Surname' required>
-
-                                <input type='text' name='email' class='booking-input' placeholder='Email' required>
-
                                 <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
+
+                                <input type='text' name='name' class='booking-input' placeholder='Name' required>
+                                <input type='text' name='surname' class='booking-input' placeholder='Surname' required>
+                                <input type='text' name='email' class='booking-input' placeholder='Email' required>
 
                                 <div class='check-in-out'>
                                     <div>

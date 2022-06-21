@@ -32,16 +32,16 @@ $head = "Airdnd";
     $request = strtok($request, '?');
     switch ($request) {
         case '/':
-            require __DIR__ . '/src/include/main.inc.php';
+            require __DIR__ . '/src/include/accommodations.inc.php';
             break;
         case '':
-            require __DIR__ . '/src/include/main.inc.php';
+            require __DIR__ . '/src/include/accommodations.inc.php';
             break;
         case '/home':
-            require __DIR__ . '/src/include/main.inc.php';
+            require __DIR__ . '/src/include/accommodations.inc.php';
             break;
         case '/bookings':
-            require __DIR__ . '/src/include/test.php';
+            require __DIR__ . '/src/include/bookings.inc.php';
             break;
         default:
             http_response_code(404);
