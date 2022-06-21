@@ -24,6 +24,8 @@ $head = "Airdnd";
     include("/MAMP/htdocs/php-oop-booking-app/vendor/autoload.php");
     
     include("/MAMP/htdocs/php-oop-booking-app/src/include/header.inc.php");
+
+
     ?>
 
     <!-- Main -->
