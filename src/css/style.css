@@ -42,7 +42,7 @@ main {
   padding: 0px 200px;
 }
 
-/* main.inc.php */
+/* accommodations.inc.php */
 .cards {
   max-width: 1500px;
   margin: 0 auto;
@@ -86,7 +86,7 @@ main {
   background-color: #ff5261;
 }
 
-/* booking.inc.php */
+/* bookings.inc.php */
 .booking-page {
   font-size: 16px;
   font-weight: 400;
@@ -145,7 +145,6 @@ main {
   display: flex;
   flex-direction: column;
 }
-
 .booking-input {
   background-color: transparent;
   color: gray;
@@ -156,8 +155,8 @@ main {
   font-weight: 400;
   padding-bottom: 3px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
-
 .check-in-out {
   display: flex;
   flex-direction: row;
@@ -166,26 +165,23 @@ main {
   border: 1px solid gray;
   border-radius: 12px;
 }
-
 .booking-label {
   color: gray;
   font-size: 15px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
-
 .start-end {
   border-left: 0.1px solid gray;
 }
-
 .date-input {
   border: none;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-bottom: 3px;
   font-size: 13px;
   outline: transparent;
   color: gray;
+  cursor: pointer;
 }
-
 .stay-length {
   background-color: transparent;
   color: gray;
@@ -204,12 +200,10 @@ main {
   border-radius: 10px;
   cursor: pointer;
   font-weight: 600;
+  transition: 0.5s;
 }
-.booking-costs {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: gray;
+.booking-btn:hover {
+  box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 
 /* Footer */

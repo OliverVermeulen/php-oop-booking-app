@@ -13,10 +13,12 @@ if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $surname = $_POST['surname'];
     $email = $_POST['email'];
+    $address = $_POST['address'];
     $start = $_POST['start'];
     $end = $_POST['end'];
-    $address = $_POST['address'];
+    $numDays = calculateDays($start, $end);
     $rate = $_POST['rates'];
+    $fullAmount = calcAmount($numDays);
 
     if ($start >= $end) {
         $_SESSION['dateError'] = "Duration of stay must be longer than 1 day.. Please fill in the form again.";
@@ -24,18 +26,15 @@ if (isset($_POST['submit'])) {
     } else {
         unset($_SESSION['dateError']);
 
-        $numDays = calculateDays($start, $end);
-        $fullAmount = calcAmount($numDays);
-
         echo "
             <p>Name: $name</p>
             <p>Surname: $surname</p>
             <p>Email: $email</p>
+            <p>Accommodation Name: $address</p>
             <p>Start Date: $start</p>
             <p>End Date: $end</p>
-            <p>Address: $address</p>
             <p>Days Booked: $numDays</p>
-            <p>Rates per day: R $rate</p>
+            <p>Rates: R $rate</p>
             <p>Total cost: R $fullAmount</p>
         ";
     }

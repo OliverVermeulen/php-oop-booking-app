@@ -8,7 +8,7 @@ function createBookings($accommodations) {
             echo " 
                 <div class='accommodation-booking'>
                     <h2>" . $accommodationArray['address'] . "</h2>
-                    <img src=" . $accommodationArray['image'] . " alt=" . $accommodationArray['address'] . " class='accommodation-img'>
+                    <img src=" . $accommodationArray['image'] . " alt=" . $accommodationArray['address'] . " class='accommodation-img' title=" . $accommodationArray['address'] . ">
                     <div class='accommodation-data'>
                         <div class='accommodation-info'>
                             <p class='accommodation-location'>" . $accommodationArray['location'] . "</p>
