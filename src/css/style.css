@@ -146,6 +146,46 @@ main {
   flex-direction: column;
 }
 
+.booking-input {
+  background-color: transparent;
+  color: gray;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+
+.check-in-out {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.booking-label {
+  color: gray;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.start-end {
+  border-left: 0.1px solid gray;
+}
+
+.date-input {
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  font-size: 13px;
+  outline: transparent;
+  color: gray;
+}
+
 .stay-length {
   background-color: transparent;
   color: gray;
@@ -261,44 +301,4 @@ footer span {
   footer {
     padding: 10px 200px;
   }
-}
-
-.check-in-out {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  border: 1px solid gray;
-  border-radius: 12px;
-}
-
-.booking-input {
-  background-color: transparent;
-  color: gray;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
-  font-size: 15px;
-  font-weight: 400;
-  padding-bottom: 3px;
-  margin-bottom: 10px;
-}
-
-.start-end {
-  border-left: 0.1px solid gray;
-}
-
-.booking-label {
-  color: gray;
-  font-size: 15px;
-  padding-left: 10px;
-}
-
-.date-input {
-  border: none;
-  margin-left: 10px;
-  margin-bottom: 3px;
-  font-size: 13px;
-  outline: transparent;
-  color: gray;
 }
