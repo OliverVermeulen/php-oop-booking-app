@@ -18,24 +18,18 @@ $head = "Airdnd";
 </head>
 
 <body>
-
-    <!-- Header -->
-    <?php 
+    <?php
+    // PHP Mailer
     include("/MAMP/htdocs/php-oop-booking-app/vendor/autoload.php");
-    
+
+    // Header
     include("/MAMP/htdocs/php-oop-booking-app/src/include/header.inc.php");
 
-
-    ?>
-
-    <!-- Main -->
-    <?php
+    // Switch Router
     $request = $_SERVER['REQUEST_URI'];
     $basepath = "php-oop-booking-app/";
     $request = str_replace($basepath, "", $request);
     $request = strtok($request, '?');
-
-
     switch ($request) {
         case '/':
             require __DIR__ . '/src/include/main.inc.php';
@@ -53,11 +47,11 @@ $head = "Airdnd";
             http_response_code(404);
             echo "page not found";
             break;
-    }
-    ?>
+    };
 
-    <!-- Footer -->
-    <?php include("/MAMP/htdocs/php-oop-booking-app/src/include/footer.inc.php") ?>
+    // Footer
+    include("/MAMP/htdocs/php-oop-booking-app/src/include/footer.inc.php");
+    ?>
 </body>
 
 </html>
