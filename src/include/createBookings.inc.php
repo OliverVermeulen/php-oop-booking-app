@@ -1,7 +1,6 @@
 <!-- Booking Creation Module -->
 <?php
-function createBookings($accommodations)
-{
+function createBookings($accommodations) {
     $hotel_id = $_GET["hotel_id"];
     foreach ($accommodations as $index => $accommodationArray) {
         $index = $index + 1;

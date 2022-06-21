@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
             <p>Rates per day: R $rate</p>
             <p>Days Booked: $numDays</p>
             <p>Total cost: R $fullAmount</p>
-            ";
+        ";
     }
 }
 ?>
