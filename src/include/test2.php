@@ -24,30 +24,29 @@ function createBookings($accommodations)
 
                             <div class='booking-inputs'>
                                 <input type='hidden' name='rates' value=" . $accommodationArray['name'] . ">
-                                <input type='text' name='name' class='booking-input' placeholder='Name'>
+                                
+                                <input type='text' name='name' class='booking-input' placeholder='Name' required>
 
-                                <input type='text' name='surname' class='booking-input' placeholder='Surname'>
+                                <input type='text' name='surname' class='booking-input' placeholder='Surname' required>
 
-                                <input type='text' name='email' class='booking-input' placeholder='Email'>
+                                <input type='text' name='email' class='booking-input' placeholder='Email' required>
 
                                 <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
 
                                 <div class='check-in-out'>
                                     <div>
                                         <label for='start' class='booking-label'>Start Date:</label>
-                                        <input type='date' name='start' class='date-input'>
+                                        <input type='date' name='start' class='date-input' required>
                                     </div>
-
                                     <div class='start-end'>
                                         <label for='end' class='booking-label'>End Date:</label>
-                                        <input type='date' name='end' class='date-input'>
+                                        <input type='date' name='end' class='date-input' required>
                                     </div>
                                 </div>
 
                                 <input type='submit' value='Reserve' name='submit' class='booking-btn'>
                             </div>
                         </form>
-
                     </div>
                 </div>
             ";
