@@ -11,7 +11,7 @@
     {
         "id" : "02",
         "range" : "high",
-        "name" : "The Addams Family Mansion", 
+        "name" : "Addams Family Mansion", 
         "location" : "Finding, Lost Angeles",       
         "image" : "/php-oop-booking-app/src/images/addams-family-mansion.jpg",
         "price" : 9500,
@@ -29,7 +29,7 @@
     {
         "id" : "04",
         "range" : "medium",
-        "name" : "The Flintstones House",       
+        "name" : "345 Cave Stone Road",       
         "location" : "Bedrock, Cobblestone County", 
         "image" : "/php-oop-booking-app/src/images/the-flintstones-house.jpg",
         "price" : 1960,
@@ -38,7 +38,7 @@
     {
         "id" : "05",
         "range" : "low",
-        "name" : "Grass Plains Village House", 
+        "name" : "27 Redstone Road", 
         "location" : "Village, Grass Plains",       
         "image" : "/php-oop-booking-app/src/images/minecraft-village-house.jpg",
         "price" : 1000,
@@ -48,7 +48,7 @@
         "id" : "06",
         "range" : "high",
         "name" : "Tardis",
-        "location" : "Anywhere, Galaxy",                
+        "location" : "Anywhere, Space & Time",                
         "image" : "/php-oop-booking-app/src/images/tardis.jpg",
         "price" : 110011,        
         "description" : "While the exterior is of limited size, the interior offers a host of possibilities, being a whole separate dimension containing an infinite number of rooms and such. Can fit multiple Daleks at a time"
