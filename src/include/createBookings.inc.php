@@ -14,6 +14,14 @@ function createBookings($accommodations) {
                         <div class='accommodation-info'>
                             <p class='accommodation-location'>" . $accommodationArray['location'] . "</p>
                             <p class='accommodation-description'>" . $accommodationArray['description'] . "</p>
+<div class='dropdown'>
+  <button class='dropbtn'>Dropdown</button>
+  <div class='dropdown-content'>
+  <a href='#'>Link 1</a>
+  <a href='#'>Link 2</a>
+  <a href='#'>Link 3</a>
+  </div>
+</div>
                         </div>
 
                         <form action='/php-oop-booking-app/src/pages/test3.php' method='post' class='booking-form'>
