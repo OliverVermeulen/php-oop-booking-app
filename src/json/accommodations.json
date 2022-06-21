@@ -2,7 +2,7 @@
     {
         "id" : "01",
         "range" : "low",        
-        "name" : "Bag End",
+        "address" : "Bag End",
         "location" : "The Shire, Ariandor",        
         "image" : "/php-oop-booking-app/src/images/bag-end.jpg",
         "price" : 799,
@@ -11,7 +11,7 @@
     {
         "id" : "02",
         "range" : "high",
-        "name" : "Addams Family Mansion", 
+        "address" : "Addams Family Mansion", 
         "location" : "Finding, Lost Angeles",       
         "image" : "/php-oop-booking-app/src/images/addams-family-mansion.jpg",
         "price" : 9500,
@@ -20,7 +20,7 @@
     {
         "id" : "03",
         "range" : "low",        
-        "name" : "Kame House",        
+        "address" : "Kame House",        
         "location" : "Turtle Island, Polynesia",
         "image" : "/php-oop-booking-app/src/images/kame-house.jpg",
         "price" : 530,
@@ -29,7 +29,7 @@
     {
         "id" : "04",
         "range" : "medium",
-        "name" : "345 Cave Stone Road",       
+        "address" : "345 Cave Stone Road",       
         "location" : "Bedrock, Cobblestone County", 
         "image" : "/php-oop-booking-app/src/images/the-flintstones-house.jpg",
         "price" : 1960,
@@ -38,7 +38,7 @@
     {
         "id" : "05",
         "range" : "low",
-        "name" : "27 Redstone Road", 
+        "address" : "27 Redstone Road", 
         "location" : "Village, Grass Plains",       
         "image" : "/php-oop-booking-app/src/images/minecraft-village-house.jpg",
         "price" : 1000,
@@ -47,7 +47,7 @@
     {
         "id" : "06",
         "range" : "high",
-        "name" : "Tardis",
+        "address" : "Tardis",
         "location" : "Anywhere, Space & Time",                
         "image" : "/php-oop-booking-app/src/images/tardis.jpg",
         "price" : 110011,        
@@ -56,7 +56,7 @@
     {
         "id" : "07",
         "range" : "high",        
-        "name" : "Tubbytronic Superdome",
+        "address" : "Tubbytronic Superdome",
         "location" : "Homedome, Teletubbyland",        
         "image" : "/php-oop-booking-app/src/images/tubbytronic-superdome.jpg",
         "price" : 15000,
@@ -65,7 +65,7 @@
     {
         "id" : "08",
         "range" : "medium",        
-        "name" : "Pineapple House",
+        "address" : "Pineapple House",
         "location" : "Bathurst, Eastern Cape",        
         "image" : "/php-oop-booking-app/src/images/spongebob-pineapple-house.jpg",
         "price" : 1500,
@@ -74,7 +74,7 @@
     {
         "id" : "09",
         "range" : "medium",        
-        "name" : "The Burrow",
+        "address" : "The Burrow",
         "location" : "Devon, England",                
         "image" : "/php-oop-booking-app/src/images/the-burrow.jpg",
         "price" : 2001,
@@ -83,7 +83,7 @@
     {
         "id" : "10",
         "range" : "medium",        
-        "name" : "742 Evergreen Terrace", 
+        "address" : "742 Evergreen Terrace", 
         "location" : "Springfield, Oregon",               
         "image" : "/php-oop-booking-app/src/images/the-simpsons-house.jpg",
         "price" : 1987,
@@ -92,7 +92,7 @@
     {
         "id" : "11",
         "range" : "high",        
-        "name" : "Arrow House",    
+        "address" : "Arrow House",    
         "location" : "Garden in Arley, England",            
         "image" : "/php-oop-booking-app/src/images/arrow-house.jpeg",
         "price" : 10000,
@@ -101,7 +101,7 @@
     {
         "id" : "12",
         "range" : "low",
-        "name" : "Baker Family Estate", 
+        "address" : "Baker Family Estate", 
         "location" : "Dulvey Parish, Louisiana",       
         "image" : "/php-oop-booking-app/src/images/baker-family-estate.jpg",
         "price" : 777,

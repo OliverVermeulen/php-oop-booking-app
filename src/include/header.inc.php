@@ -1,7 +1,7 @@
 <!-- Header Module -->
 <header class="header">
     <!-- Website Logo -->
-    <img src="/php-oop-booking-app/src/images/airdnd.png" alt="Airdnd logo" class="logo">
+    <a href="/php-oop-booking-app/"><img src="/php-oop-booking-app/src/images/airdnd.png" alt="Airdnd logo" class="logo"></a>
 
     <!-- Social Media -->
     <div class="social-media">

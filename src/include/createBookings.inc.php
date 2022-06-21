@@ -7,8 +7,8 @@ function createBookings($accommodations) {
         if ($index == $hotel_id) {
             echo " 
                 <div class='accommodation-booking'>
-                    <h2>" . $accommodationArray['name'] . "</h2>
-                    <img src=" . $accommodationArray['image'] . " alt=" . $accommodationArray['name'] . " class='accommodation-img'>
+                    <h2>" . $accommodationArray['address'] . "</h2>
+                    <img src=" . $accommodationArray['image'] . " alt=" . $accommodationArray['address'] . " class='accommodation-img'>
                     <div class='accommodation-data'>
                         <div class='accommodation-info'>
                             <p class='accommodation-location'>" . $accommodationArray['location'] . "</p>
@@ -22,7 +22,7 @@ function createBookings($accommodations) {
                             </div>
 
                             <div class='booking-inputs'>
-                                <input type='hidden' name='rates' value=" . $accommodationArray['name'] . ">
+                                <input type='hidden' name='address' value=" . $accommodationArray['address'] . ">
                                 <input type='hidden' name='rates' value=" . $accommodationArray['price'] . ">
 
                                 <input type='text' name='name' class='booking-input' placeholder='Name' required>

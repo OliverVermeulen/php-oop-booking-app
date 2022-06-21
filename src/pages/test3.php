@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $start = $_POST['start'];
     $end = $_POST['end'];
+    $address = $_POST['address'];
     $rate = $_POST['rates'];
 
     if ($start >= $end) {
@@ -32,8 +33,9 @@ if (isset($_POST['submit'])) {
             <p>Email: $email</p>
             <p>Start Date: $start</p>
             <p>End Date: $end</p>
-            <p>Rates per day: R $rate</p>
+            <p>Address: $address</p>
             <p>Days Booked: $numDays</p>
+            <p>Rates per day: R $rate</p>
             <p>Total cost: R $fullAmount</p>
         ";
     }
