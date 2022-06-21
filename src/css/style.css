@@ -157,6 +157,9 @@ main {
   margin-bottom: 10px;
   cursor: pointer;
 }
+.booking-input:focus {
+ font-weight: 600;
+}
 .check-in-out {
   display: flex;
   flex-direction: row;
