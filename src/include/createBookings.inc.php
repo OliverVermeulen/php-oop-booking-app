@@ -22,7 +22,7 @@ function createBookings($accommodations) {
                         </div>
                         </div>
                     </div>
-                    <form action='/php-oop-booking-app/src/include/checkout.inc.php' method='post' class='booking-form'>
+                    <form action='/php-oop-booking-app/checkout' method='post' class='booking-form'>
                         <div class='pricing'>
                             <p class='price-per-night'>R" . $accommodationArray['price'] . " ZAR</p>
                             <p> per night</p>

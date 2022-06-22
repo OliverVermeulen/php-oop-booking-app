@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 require "/MAMP/htdocs/php-oop-booking-app/src/include/calcAmount.inc.php";
 require "/MAMP/htdocs/php-oop-booking-app/src/include/calcDays.inc.php";
 

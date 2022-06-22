@@ -70,5 +70,29 @@
         "days_booked": 8,
         "rates": "799",
         "total_cost": 6392
+    },
+    {
+        "name": "Oliver Vermeulen",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-22",
+        "end_date": "2022-06-29",
+        "days_booked": 7,
+        "rates": "799",
+        "total_cost": 5593
+    },
+    {
+        "name": "Oliver Vermeulen",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-22",
+        "end_date": "2022-06-29",
+        "days_booked": 7,
+        "rates": "799",
+        "total_cost": 5593
     }
 ]
