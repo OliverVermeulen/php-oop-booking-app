@@ -12,7 +12,7 @@ session_start();
     <title>Airdnd</title>
     <link rel="stylesheet" href="/php-oop-booking-app/src/css/style.css">
     <link rel="shortcut icon" href="/php-oop-booking-app/src/images/tab-icon.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous" defer></script>
     <script src="/php-oop-booking-app/src/js/script.js" defer></script>
 </head>
 
@@ -42,9 +42,9 @@ session_start();
         case '/bookings':
             require __DIR__ . '/src/include/bookings.inc.php';
             break;
-            case '/checkout':
-                require __DIR__ . '/src/include/checkout.inc.php';
-                break;
+        case '/checkout':
+            require __DIR__ . '/src/include/checkout.inc.php';
+            break;
         default:
             http_response_code(404);
             echo "page not found";

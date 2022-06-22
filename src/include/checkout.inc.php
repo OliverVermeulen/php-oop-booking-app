@@ -49,32 +49,18 @@ if (isset($_POST['submit'])) {
 <main>
     <?php
     echo "
-        <table>
-            <tr>
-                <th class='table-heading'>Name</th>
-                <th class='table-heading'>Surname</th>
-                <th class='table-heading'>Email</th>
-                <th class='table-heading'>Accommodation Name</th>
-                <th class='table-heading'>Accommodation Location</th>
-                <th class='table-heading'>Start Date</th>
-                <th class='table-heading'>End Date</th>
-                <th class='table-heading'>Days Booked</th>
-                <th class='table-heading'>Rates</th>
-                <th class='table-heading'>Total cost</th>
-            </tr>
-            <tr>
-                <td class='table-item'>$name</td>
-                <td class='table-item'>$surname</td>
-                <td class='table-item'>$email</td>
-                <td class='table-item'>$address</td>
-                <td class='table-item'>$location</td>
-                <td class='table-item'>$start</td>
-                <td class='table-item'>$end</td>
-                <td class='table-item'>$numDays</td>
-                <td class='table-item'>R $rate.00</td>
-                <td class='table-item'>R $fullAmount.00</td>
-            </tr>
-        </table>
+        <div>
+            <p class='table-item'><span>Name:</span> $name</p>
+            <p class='table-item'><span>Surname:</span>$surname</p>
+            <p class='table-item'><span>Email:</span>$email</p>
+            <p class='table-item'><span>Address Name:</span>$address</p>
+            <p class='table-item'><span>Address Location:</span>$location</p>
+            <p class='table-item'><span>Start Date:</span>$start</p>
+            <p class='table-item'><span>End Date:</span>$end</p>
+            <p class='table-item'><span>Days Booked:</span>$numDays</p>
+            <p class='table-item'><span>Rates:</span>R $rate.00</p>
+            <p class='table-item'><span>Total:</span>R $fullAmount.00</p>
+        </div>
         ";
     ?>
     <a href="/php-oop-booking-app/">
