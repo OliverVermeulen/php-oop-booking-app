@@ -49,21 +49,35 @@ if (isset($_POST['submit'])) {
 <main>
     <?php
     echo "
-        <div>
-            <p class='table-item'><span>Name:</span> $name</p>
-            <p class='table-item'><span>Surname:</span>$surname</p>
-            <p class='table-item'><span>Email:</span>$email</p>
-            <p class='table-item'><span>Address Name:</span>$address</p>
-            <p class='table-item'><span>Address Location:</span>$location</p>
-            <p class='table-item'><span>Start Date:</span>$start</p>
-            <p class='table-item'><span>End Date:</span>$end</p>
-            <p class='table-item'><span>Days Booked:</span>$numDays</p>
-            <p class='table-item'><span>Rates:</span>R $rate.00</p>
-            <p class='table-item'><span>Total:</span>R $fullAmount.00</p>
+        <div class='checkout-table'>
+            <p><span class='table-title'>Name:</span>
+            <span class='table-value'>$name</span></p>
+            <p><span class='table-title'>Surname:</span>
+            <span class='table-value'>$surname</span></p>
+            <p><span class='table-title'>Email:</span>
+            <span class='table-value'>$email</span></p>
+
+            <p><span class='table-title'>Address Name:</span>
+            <span class='table-value'>$address</span></p>
+            <p><span class='table-title'>Address Location:</span>
+            <span class='table-value'>$location</span></p>
+            <p><span class='table-title'>Start Date:</span>
+            <span class='table-value'>$start</span></p>
+
+            <p><span class='table-title'>End Date:</span>
+            <span class='table-value'>$end</span></p>
+            <p><span class='table-title'>Days Booked:</span>
+            <span class='table-value'>$numDays</span></p>
+            <p><span class='table-title'>Rates:</span>
+            <span class='table-value'>R $rate.00</span></p>
+            <p><span class='table-title'>Total:</span>
+            <span class='table-value'>R $fullAmount.00</span></p>
+
+            <a href='/php-oop-booking-app/'>
+            <button>Home</button>
+            </a>            
         </div>
         ";
     ?>
-    <a href="/php-oop-booking-app/">
-        <button>Home</button>
-    </a>
+
 </main>

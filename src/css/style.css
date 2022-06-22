@@ -341,3 +341,12 @@ footer span {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+.checkout-table {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(212 212 212);
+  max-width: 400px;
+  font-size: 16px;
+  padding: 10px;
+}
