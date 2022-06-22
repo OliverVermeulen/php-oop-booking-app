@@ -209,6 +209,54 @@ main {
   box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
 
+/* checkout.inc.php */
+.checkout {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(212 212 212);
+  max-width: 400px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.checkout-header {
+  text-align: center;
+  cursor: default;
+}
+.checkout-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.checkout-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.checkout-value {
+  color: gray;
+  font-weight: 500;
+}
+.checkout-form {
+  text-align: center;
+}
+.checkout-button {
+  background-color: #ff1c30;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.checkout-button:hover {
+  box-shadow: 2px 2px 5px rgb(151, 151, 151);
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -319,10 +367,12 @@ footer span {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(247, 247, 247);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 5px rgb(192, 192, 192);
   z-index: 1;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .dropdown-content a {
@@ -332,60 +382,58 @@ footer span {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #ff848e;
+  color: #fff;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-.checkout {
-  border: 1px solid lightgray;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px rgb(212 212 212);
-  max-width: 400px;
-  font-size: 16px;
-  padding: 10px;
-  margin: 0 auto;
-}
-
-.checkout-header {
-  text-align: center;
-  cursor: default;
-}
-.checkout-row{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 5px;
-}
-.checkout-title {
-  font-size: 18px;
-  font-weight: 700;
-}
-.checkout-value {
-  color: gray;
-  font-weight: 500;
-}
-.checkout-form {
-  text-align: center;
-}
-.checkout-button  {
-  background-color: #ff1c30;
-  color: #fff;
-  border: none;
-  font-size: 16px;
-  padding: 10px;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 0.5s;
-  margin-bottom: 10px;
-  text-align: center;
-}
-.checkout-button:hover {
   box-shadow: 2px 2px 5px rgb(151, 151, 151);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: 0 auto;
+  animation-name: animatetop;
+  animation-duration: 0.5s
+}
+@keyframes animatetop {
+  from {
+      top: -300px;
+      opacity: 0
+  }
+  to {
+      top: 0;
+      opacity: 1
+  }
+}
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: turquoise;
+  text-decoration: none;
+  cursor: pointer;
 }
