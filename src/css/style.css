@@ -342,7 +342,7 @@ footer span {
   background-color: #3e8e41;
 }
 
-.checkout-table {
+.checkout {
   border: 1px solid lightgray;
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgb(212 212 212);
@@ -352,25 +352,28 @@ footer span {
   margin: 0 auto;
 }
 
-.table-header {
+.checkout-header {
   text-align: center;
   cursor: default;
 }
-.table-row{
+.checkout-row{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 5px;
 }
-.table-title {
+.checkout-title {
   font-size: 18px;
   font-weight: 700;
 }
-.table-value {
+.checkout-value {
   color: gray;
   font-weight: 500;
 }
-.table-button  {
+.checkout-form {
+  text-align: center;
+}
+.checkout-button  {
   background-color: #ff1c30;
   color: #fff;
   border: none;
@@ -383,6 +386,6 @@ footer span {
   margin-bottom: 10px;
   text-align: center;
 }
-.table-button:hover {
+.checkout-button:hover {
   box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }

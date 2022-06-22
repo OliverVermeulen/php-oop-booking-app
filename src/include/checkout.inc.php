@@ -49,35 +49,35 @@ if (isset($_POST['submit'])) {
 <main>
     <?php
     echo "
-        <div class='checkout-table'>
-            <h2 class='table-header'>Details</h2>
+        <div class='checkout'>
+            <h2 class='checkout-header'>Details</h2>
 
-            <p class='table-row'><span class='table-title'>Name:</span>
-            <span class='table-value'>$name</span></p>
-            <p class='table-row'><span class='table-title'>Surname:</span>
-            <span class='table-value'>$surname</span></p>
-            <p class='table-row'><span class='table-title'>Email:</span>
-            <span class='table-value'>$email</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Name:</span>
+            <span class='checkout-value'>$name</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Surname:</span>
+            <span class='checkout-value'>$surname</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Email:</span>
+            <span class='checkout-value'>$email</span></p>
 
-            <p class='table-row'><span class='table-title'>Address Name:</span>
-            <span class='table-value'>$address</span></p>
-            <p class='table-row'><span class='table-title'>Address Location:</span>
-            <span class='table-value'>$location</span></p>
-            <p class='table-row'><span class='table-title'>Start Date:</span>
-            <span class='table-value'>$start</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Address Name:</span>
+            <span class='checkout-value'>$address</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Address Location:</span>
+            <span class='checkout-value'>$location</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Start Date:</span>
+            <span class='checkout-value'>$start</span></p>
 
-            <p class='table-row'><span class='table-title'>End Date:</span>
-            <span class='table-value'>$end</span></p>
-            <p class='table-row'><span class='table-title'>Days Booked:</span>
-            <span class='table-value'>$numDays</span></p>
-            <p class='table-row'><span class='table-title'>Rates:</span>
-            <span class='table-value'>R $rate.00</span></p>
-            <p class='table-row'><span class='table-title'>Total:</span>
-            <span class='table-value'>R $fullAmount.00</span></p>
+            <p class='checkout-row'><span class='checkout-title'>End Date:</span>
+            <span class='checkout-value'>$end</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Days Booked:</span>
+            <span class='checkout-value'>$numDays</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Rates:</span>
+            <span class='checkout-value'>R $rate.00</span></p>
+            <p class='checkout-row'><span class='checkout-title'>Total:</span>
+            <span class='checkout-value'>R $fullAmount.00</span></p>
 
-            <a href='/php-oop-booking-app/' class='table-href'>
-            <button class='table-button' title='Checkout'>Checkout</button>
-            </a>            
+            <form action='/php-oop-booking-app/' class='checkout-form'>
+            <button class='checkout-button' title='Checkout'>Checkout</button>
+            </form>                        
         </div>
         ";
     ?>
