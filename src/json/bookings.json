@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Shirley",
+        "surname": "Vermeulen",
+        "email": "shirleyvermeulen123@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-24",
+        "end_date": "2022-06-27",
+        "days_booked": 3,
+        "rates": "799",
+        "total_cost": 2397
+    },
+    {
+        "name": "Shirley",
+        "surname": "Vermeulen",
+        "email": "shirleyvermeulen123@gmail.com",
+        "address_name": "Pineapple House",
+        "location_name": "Bathurst, Eastern Cape",
+        "start_date": "2022-07-22",
+        "end_date": "2022-07-25",
+        "days_booked": 3,
+        "rates": "1500",
+        "total_cost": 4500
+    },
+    {
+        "name": "Shirley",
+        "surname": "Vermeulen",
+        "email": "shirleyvermeulen123@gmail.com",
+        "address_name": "Tardis",
+        "location_name": "Anywhere, Space & Time",
+        "start_date": "2022-12-23",
+        "end_date": "2022-12-26",
+        "days_booked": 3,
+        "rates": "110011",
+        "total_cost": 330033
+    }
+]
