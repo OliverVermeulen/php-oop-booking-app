@@ -350,3 +350,19 @@ footer span {
   font-size: 16px;
   padding: 10px;
 }
+
+.table-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.table-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.table-value {
+  color: gray;
+  font-weight: 500;
+}
