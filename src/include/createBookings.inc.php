@@ -22,13 +22,14 @@ function createBookings($accommodations) {
                         </div>
                         </div>
                     </div>
-                    <form action='/php-oop-booking-app/src/pages/test3.php' method='post' class='booking-form'>
+                    <form action='/php-oop-booking-app/src/include/checkout.inc.php' method='post' class='booking-form'>
                         <div class='pricing'>
                             <p class='price-per-night'>R" . $accommodationArray['price'] . " ZAR</p>
                             <p> per night</p>
                         </div>
                         <div class='booking-inputs'>
                             <input type='hidden' name='address' value=\"" . $accommodationArray['address'] . "\">
+                            <input type='hidden' name='location' value=\"" . $accommodationArray['location'] . "\">
                             <input type='hidden' name='rates' value=\"" . $accommodationArray['price'] . "\">
                             <input type='text' name='name' class='booking-input' placeholder='Name' required>
                             <input type='text' name='surname' class='booking-input' placeholder='Surname' required>
