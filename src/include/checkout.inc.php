@@ -50,6 +50,8 @@ if (isset($_POST['submit'])) {
     <?php
     echo "
         <div class='checkout-table'>
+            <h2 class='table-header'>Details</h2>
+
             <p class='table-row'><span class='table-title'>Name:</span>
             <span class='table-value'>$name</span></p>
             <p class='table-row'><span class='table-title'>Surname:</span>
@@ -73,8 +75,8 @@ if (isset($_POST['submit'])) {
             <p class='table-row'><span class='table-title'>Total:</span>
             <span class='table-value'>R $fullAmount.00</span></p>
 
-            <a href='/php-oop-booking-app/'>
-            <button>Home</button>
+            <a href='/php-oop-booking-app/' class='table-href'>
+            <button class='table-button' title='Checkout'>Checkout</button>
             </a>            
         </div>
         ";

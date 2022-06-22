@@ -349,20 +349,40 @@ footer span {
   max-width: 400px;
   font-size: 16px;
   padding: 10px;
+  margin: 0 auto;
 }
 
+.table-header {
+  text-align: center;
+  cursor: default;
+}
 .table-row{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 5px;
 }
-
 .table-title {
   font-size: 18px;
   font-weight: 700;
 }
-
 .table-value {
   color: gray;
   font-weight: 500;
+}
+.table-button  {
+  background-color: #ff1c30;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.table-button:hover {
+  box-shadow: 2px 2px 5px rgb(151, 151, 151);
 }
