@@ -1,8 +1,8 @@
-<!-- Comparison Modal Module -->
+<!-- Comparisons Modal Module -->
 <?php
-function test($accommodations)
+function createComparisons($comparisons)
 {
-    foreach ($accommodations as $index => $accommodationArray) {
+    foreach ($comparisons as $index => $accommodationArray) {
         $index = $index + 1;
         if ($accommodationArray['range'] == "low") {
             echo "
@@ -30,7 +30,7 @@ function test($accommodations)
                         <input type='date' name='end' class='date-input' required>
                     </div>
                     </div>
-                        <input type='submit' value='Reserve' name='submit' class='booking-btn'>
+                        <input type='submit' value='Reserve' name='submit' class='booking-btn' title='Reserve'>
                     </div>
                 </form>
                 ";

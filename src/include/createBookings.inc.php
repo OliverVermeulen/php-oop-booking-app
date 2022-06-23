@@ -1,6 +1,6 @@
-<!-- Booking Creation Module -->
+<!-- Bookings Creation Module -->
 <?php
-include("/MAMP/htdocs/php-oop-booking-app/src/include/modal.inc.php");
+include("/MAMP/htdocs/php-oop-booking-app/src/include/comparisons.php");
 function createBookings($accommodations) {
     $hotel_id = $_GET["hotel_id"];
     foreach ($accommodations as $index => $accommodationArray) {
@@ -37,7 +37,7 @@ function createBookings($accommodations) {
                                 <input type='date' name='end' class='date-input' required>
                             </div>
                         </div>
-                            <input type='submit' value='Reserve' name='submit' class='booking-btn'>
+                            <input type='submit' value='Reserve' name='submit' class='booking-btn' title='Reserve'>
                         </div>
                     </form>
                     </div>

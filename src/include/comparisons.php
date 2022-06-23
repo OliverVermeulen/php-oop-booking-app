@@ -1,6 +1,6 @@
-<!-- Accommodations Body Module -->
+<!-- Comparisons Body Module -->
 <?php
-require "/MAMP/htdocs/php-oop-booking-app/src/include/test_1.php";
+require "/MAMP/htdocs/php-oop-booking-app/src/include/createComparisons.inc.php";
 $_SESSION['price_class'] = [];
 $fileContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/accommodations.json");
 $fileContents = json_decode($fileContents, true);
@@ -13,11 +13,11 @@ $fileContents = json_decode($fileContents, true);
         <div class="modal-content">
             <div class="modal-header">
                 <h2>Compare Accommodations</h2>
-                <button class="close"><i class="fa fa-minus"></i></button>
+                <button class="close" title="Close"><i class="fa fa-minus"></i></button>
             </div>
             <!-- Modal Body -->
             <div class="modal-body">
-                <?php test($fileContents); ?>
+                <?php createComparisons($fileContents); ?>
             </div>
         </div>
     </div>
