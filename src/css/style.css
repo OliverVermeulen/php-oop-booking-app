@@ -366,6 +366,7 @@ footer span {
   background-color: #fff;
   margin: 0 auto;
   border: 1px solid gray;
+  border-radius: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
   animation-duration: 0.4s;
@@ -383,22 +384,31 @@ footer span {
   }
 }
 
-.close {
-  color: #fff;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .modal-header {
+  color: #ff1c30;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.close {
+  float: right;
   background-color: #ff1c30;
   color: #fff;
+  border: none;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.close:hover {
+  box-shadow: 2px 2px 5px rgb(151, 151, 151);
+}
+.close:active {
+  background-color: #ff5261;
 }
 
 .modal-body {

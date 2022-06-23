@@ -13,8 +13,8 @@ $fileContents = json_decode($fileContents, true);
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Modal Header</h2>
+      <h2>Compare Accommodations</h2>
+      <span class="close"><i class="fa fa-plus"></i></span>
     </div>
     <div class="modal-body">
     <?php test($fileContents); ?>
