@@ -45,6 +45,9 @@ session_start();
         case '/checkout':
             require __DIR__ . '/src/include/checkout.inc.php';
             break;
+        case '/test':
+            require __DIR__ . '/src/include/test_2.php';
+            break;
         default:
             http_response_code(404);
             echo "page not found";
