@@ -22,7 +22,6 @@ try {
     $mail->setFrom('confirmation@airdnd.com', 'Airdnd'); // Sender
     $mail->addAddress('oliververmeulen862@gmail.com', 'Juan Vermeulen'); // Receiver
     $mail->addReplyTo('reply@airdnd.com', 'Reply'); // Reply
-
     // Content
     $mail->isHTML(true);
     $mail->Subject = 'Airdnd Booking confirmation';

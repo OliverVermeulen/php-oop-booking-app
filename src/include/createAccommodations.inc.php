@@ -9,6 +9,7 @@ function createAccommodations($accommodations)
                 <img src=\"" . $accommodationArray['image'] . "\" alt=\"" . $accommodationArray['address'] . "\" class='accommodation' title=\"" . $accommodationArray['address'] . "\">
                 <form action='/php-oop-booking-app/bookings'>
                 <input type='hidden' value=" . $accommodationArray['id'] . " name='hotel_id'>
+                <input type='hidden' value=" . $accommodationArray['range'] . " name='hotel_range'>
                     <button class='booking-page-btn' title='Book'><i class='fa fa-plus'></i></button>
                 </form>
                 <p>" . $accommodationArray['location'] . "</p>
