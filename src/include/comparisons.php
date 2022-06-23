@@ -6,7 +6,7 @@ $fileContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/acc
 $fileContents = json_decode($fileContents, true);
 ?>
     <!-- Modal Trigger -->
-    <button id="myBtn">Compare</button>
+    
     <!-- Comparison Modal -->
     <div id="myModal" class="modal">
         <!-- Modal Header -->
