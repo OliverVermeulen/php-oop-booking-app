@@ -6,19 +6,18 @@ $fileContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/acc
 $fileContents = json_decode($fileContents, true);
 ?>
 <main class="main">
-<button id="myBtn">Open Modal</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <h2>Compare Accommodations</h2>
-      <span class="close"><i class="fa fa-plus"></i></span>
+    <button id="myBtn">Compare</button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Compare Accommodations</h2>
+                <span class="close"><i class="fa fa-minus"></i></span>
+            </div>
+            <div class="modal-body">
+                <?php test($fileContents); ?>
+            </div>
+        </div>
     </div>
-    <div class="modal-body">
-    <?php test($fileContents); ?>
-    </div>
-  </div>
-</div>
 </main>
