@@ -5,8 +5,6 @@ $_SESSION['price_class'] = [];
 $fileContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/accommodations.json");
 $fileContents = json_decode($fileContents, true);
 ?>
-    <!-- Modal Trigger -->
-    
     <!-- Comparison Modal -->
     <div id="myModal" class="modal">
         <!-- Modal Header -->

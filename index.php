@@ -45,8 +45,8 @@ session_start();
         case '/checkout':
             require __DIR__ . '/src/include/checkout.inc.php';
             break;
-        case '/test':
-            require __DIR__ . '/src/include/test_2.php';
+        case '/comparison':
+            require __DIR__ . '/src/include/comparisons.php';
             break;
         default:
             http_response_code(404);

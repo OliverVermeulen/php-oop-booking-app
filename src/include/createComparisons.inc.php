@@ -1,10 +1,10 @@
 <!-- Comparisons Modal Module -->
 <?php
-function createComparisons($comparisons)
-{
+function createComparisons($comparisons) {
+    $hotel_range = $_GET["hotel_range"];
     foreach ($comparisons as $index => $accommodationArray) {
         $index = $index + 1;
-        if ($accommodationArray['range'] == "low") {
+        if ($accommodationArray['range'] == $hotel_range) {
             echo "
                 <form action='/php-oop-booking-app/checkout' method='post' class='booking-form modal-content'>
                     <h2>" . $accommodationArray["address"] . " </h2>
