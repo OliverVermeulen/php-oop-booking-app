@@ -43,12 +43,12 @@ session_start();
             require __DIR__ . '/src/include/bookings.inc.php';
             break;
         case '/checkout':
-            require __DIR__ . '/src/include/checkout.inc.php';
+            require __DIR__ . '/src/include/test.php';
             break;
         case '/comparison':
             require __DIR__ . '/src/include/comparisons.php';
             break;
-        case '/test':
+        case '/email':
             require __DIR__ . '/src/email/email.php';
             break;
         default:

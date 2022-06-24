@@ -21,7 +21,7 @@ try {
 
     // User details
     $recipients = json_decode(file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json"), true);
-    $recipient = $recipients["id" == $recipient_id]; // gets data from id key that is equal to $recipient_id
+    $recipient = $recipients[$recipient_id]; // gets data from id key that is equal to $recipient_id
     $name = $recipient["name"];
     $surname = $recipient["surname"];
     $email = $recipient["email"];
