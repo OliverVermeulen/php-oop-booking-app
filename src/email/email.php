@@ -21,7 +21,7 @@ try {
     $mail->Port       = 2525;
 
     $users = json_decode(file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json"), true);
-    $user = $users[$user_id];
+    $usera = $email["email"];
     $email = $user["email"];
 
     //Recipients
