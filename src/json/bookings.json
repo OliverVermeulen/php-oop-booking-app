@@ -1,0 +1,54 @@
+{
+    "62b5d6a17d197": {
+        "id": "62b5d6a17d197",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-25",
+        "end_date": "2022-06-30",
+        "days_booked": 5,
+        "rates": "799",
+        "total_cost": 3995
+    },
+    "62b5d7ef4fba6": {
+        "id": "62b5d7ef4fba6",
+        "name": "Roxanne",
+        "surname": "van Rheede van Oudtshoorn",
+        "email": "roxannevrvo@gmail.com",
+        "address_name": "Arrow House",
+        "location_name": "Garden in Arley, England",
+        "start_date": "2022-06-30",
+        "end_date": "2022-07-09",
+        "days_booked": 9,
+        "rates": "10000",
+        "total_cost": 90000
+    },
+    "62b5d804dde7f": {
+        "id": "62b5d804dde7f",
+        "name": "Roxanne",
+        "surname": "van Rheede van Oudtshoorn",
+        "email": "roxannevrvo@gmail.com",
+        "address_name": "Arrow House",
+        "location_name": "Garden in Arley, England",
+        "start_date": "2022-06-30",
+        "end_date": "2022-07-09",
+        "days_booked": 9,
+        "rates": "10000",
+        "total_cost": 90000
+    },
+    "62b5d92377633": {
+        "id": "62b5d92377633",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "shirleyvermeulen123@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-24",
+        "end_date": "2022-06-29",
+        "days_booked": 5,
+        "rates": "799",
+        "total_cost": 3995
+    }
+}

@@ -47,7 +47,7 @@ try {
                         <p>You have recently made a reservation for <strong>$address_name</strong> located in <strong>$location_name</strong>.</p>
                         <p>Your stay begins <strong>$start_date</strong> and ends on <strong>$end_date</strong>.</p>
                         <p>Your stay is for <strong>$days_booked</strong> days at a rate of <strong>R $rates.00 ZAR</strong> per night.</p>
-                        <p>Your total costs are: <strong>R $total_cost .00 ZAR</strong>.</p>
+                        <p>Your total costs are: <strong>R $total_cost.00 ZAR</strong>.</p>
                         <br>
                         <p>Regards,</p>
                         <p>Airdnd Team</p>

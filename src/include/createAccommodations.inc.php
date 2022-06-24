@@ -14,7 +14,7 @@ function createAccommodations($accommodations)
                     <button class='booking-page-btn' title='Book'><i class='fa fa-plus'></i></button>
                 </form>
                 <p>" . $accommodationArray['location'] . "</p>
-                <p>R" . $accommodationArray['price'] . " ZAR night</p>
+                <p>R" . $accommodationArray['price'] . ".00 ZAR night</p>
             </div> 
             ";
     }

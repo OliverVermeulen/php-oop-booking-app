@@ -16,31 +16,38 @@ $numDays = calculateDays($start, $end);
 $rate = $_POST['rates'];
 $fullAmount = calcAmount($numDays);
 
-// Object constructor
-if ($id) {
-    if (file_exists('/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json')) {
-        $json = file_get_contents('/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json');
-        $bookingsContents = json_decode($json, true);
-    } else {
-        $bookingsContents = [];
+// Checks if difference between start and end dates are more than 1
+if ($start >= $end) {
+    $_SESSION['dateError'] = "Duration of stay must be longer than 1 day.. Please fill in the form again.";
+    header("Location: index.php");
+} else {
+    // Object constructor
+    if ($id) {
+        if (file_exists('/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json')) {
+            $json = file_get_contents('/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json');
+            $bookingsContents = json_decode($json, true);
+        } else {
+            $bookingsContents = [];
+        }
+        $bookingsContents[$id] = [
+            "id" => $id,
+            "name" => $name,
+            "surname" => $surname,
+            "email" => $email,
+            "address_name" => $address,
+            "location_name" => $location,
+            "start_date" => $start,
+            "end_date" => $end,
+            "days_booked" => $numDays,
+            "rates" => $rate,
+            "total_cost" => $fullAmount
+        ];
+        file_put_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json", json_encode($bookingsContents, JSON_PRETTY_PRINT));
     }
-    $bookingsContents[$id] = [
-        "id" => $id,
-        "name" => $name,
-        "surname" => $surname,
-        "email" => $email,
-        "address_name" => $address,
-        "location_name" => $location,
-        "start_date" => $start,
-        "end_date" => $end,
-        "days_booked" => $numDays,
-        "rates" => $rate,
-        "total_cost" => $fullAmount
-    ];
-    file_put_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json", json_encode($bookingsContents, JSON_PRETTY_PRINT));
-}
+};
 ?>
 <main>
+    <!-- Template -->
     <?= "
         <div class='checkout'>
             <h2 class='checkout-header'>Details</h2>

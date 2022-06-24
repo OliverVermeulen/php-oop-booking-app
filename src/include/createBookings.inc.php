@@ -33,7 +33,7 @@ function createBookings($accommodations)
                     </div>
                     <form action='/php-oop-booking-app/checkout' method='post' class='booking-form'>
                         <div class='pricing'>
-                            <p class='price-per-night'>R" . $accommodationArray['price'] . " ZAR</p>
+                            <p class='price-per-night'>R" . $accommodationArray['price'] . ".00 ZAR</p>
                             <p> per night</p>
                         </div>
                         <div class='booking-inputs'>
