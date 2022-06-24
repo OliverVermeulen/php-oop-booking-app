@@ -3,45 +3,58 @@
 require "/MAMP/htdocs/php-oop-booking-app/src/include/calcAmount.inc.php";
 require "/MAMP/htdocs/php-oop-booking-app/src/include/calcDays.inc.php";
 
-// POST variables
-$id = uniqid();
-$name = $_POST['name'];
-$surname = $_POST['surname'];
-$email = $_POST['email'];
-$address = $_POST['address'];
-$location = $_POST['location'];
-$start = $_POST['start'];
-$end = $_POST['end'];
-$numDays = calculateDays($start, $end);
-$rate = $_POST['rates'];
-$fullAmount = calcAmount($numDays);
 
-// Object constructor
-if ($id) {
-    if (file_exists('/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json')) {
-        $json = file_get_contents('/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json');
-        $bookingsContents = json_decode($json, true);
+if (isset($_POST['submit'])) {
+    // POST variables
+    $id = uniqid();
+    $name = $_POST['name'];
+    $surname = $_POST['surname'];
+    $email = $_POST['email'];
+    $address = $_POST['address'];
+    $location = $_POST['location'];
+    $start = $_POST['start'];
+    $end = $_POST['end'];
+    $numDays = calculateDays($start, $end);
+    $rate = $_POST['rates'];
+    $fullAmount = calcAmount($numDays);
+
+    // Check if stay duration is longer than 1 day
+    if ($start >= $end) {
+        $_SESSION['dateError'] = "Duration of stay must be longer than 1 day.. Please fill in the form again.";
+        header("Location: index.php");
     } else {
-        $bookingsContents = [];
+        unset($_SESSION['dateError']);
+        $bookingsContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json");
+        $bookingsContents = json_decode($bookingsContents, true);
+        try {
+            $bookingsContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json");
+            $bookingsContents = json_decode($bookingsContents);
+        } catch (Exception $ex) {
+            $bookingsContents = [];
+        }
+        if ($bookingsContents == false) {
+            $bookingsContents = [];
+        }
+        array_push($bookingsContents, array(
+            "id" => $id,
+            "name" => $name,
+            "surname" => $surname,
+            "email" => $email,
+            "address_name" => $address,
+            "location_name" => $location,
+            "start_date" => $start,
+            "end_date" => $end,
+            "days_booked" => $numDays,
+            "rates" => $rate,
+            "total_cost" => $fullAmount
+        ));
+        file_put_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json", json_encode($bookingsContents, JSON_PRETTY_PRINT));
     }
-    $bookingsContents[$id] = [
-        "id" => $id,
-        "name" => $name,
-        "surname" => $surname,
-        "email" => $email,
-        "address_name" => $address,
-        "location_name" => $location,
-        "start_date" => $start,
-        "end_date" => $end,
-        "days_booked" => $numDays,
-        "rates" => $rate,
-        "total_cost" => $fullAmount
-    ];
-    file_put_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json", json_encode($bookingsContents, JSON_PRETTY_PRINT));
 }
 ?>
 <main>
-    <?= "
+    <?php
+    echo "
         <div class='checkout'>
             <h2 class='checkout-header'>Details</h2>
 
@@ -75,4 +88,5 @@ if ($id) {
         </div>
         ";
     ?>
+
 </main>

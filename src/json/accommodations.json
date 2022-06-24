@@ -7,7 +7,8 @@
         "location" : "The Shire, Ariandor",        
         "image" : "/php-oop-booking-app/src/images/bag-end.jpg",
         "price" : 799,
-        "description" : "It's a Hobbit-hole, and that means comfort. Perfect for a romantic getaway; or for a bunch of people to show up unannounced."
+        "description" : "It's a Hobbit-hole, and that means comfort. Perfect for a romantic getaway; or for a bunch of people to show up unannounced.",
+        "features" : ["2 Bed", "1 Bath", "Grass Roof"]
     },
     {
         "id" : "02",
@@ -17,7 +18,8 @@
         "location" : "Finding, Lost Angeles",       
         "image" : "/php-oop-booking-app/src/images/addams-family-mansion.jpg",
         "price" : 9500,
-        "description" : "Practically a museum filled with odd statues, trophies, and other interesting things. Perfect for large unconventional family gatherings. Come for the stargazing, stay because it's cursed."
+        "description" : "Practically a museum filled with odd statues, trophies, and other interesting things. Perfect for large unconventional family gatherings. Come for the stargazing, stay because it's cursed.",
+        "features" : ["10 Bed", "12 Bath", "Curses"]
     },
     {
         "id" : "03",
@@ -27,7 +29,8 @@
         "location" : "Turtle Island, Polynesia",
         "image" : "/php-oop-booking-app/src/images/kame-house.jpg",
         "price" : 530,
-        "description" : "Owner may be creepy but the location is unbeatable (like Goku). Smells pleasantly like oranges. Perfect for an affordable one person stay (or if you have to save the world)."
+        "description" : "Owner may be creepy but the location is unbeatable (like Goku). Smells pleasantly like oranges. Perfect for an affordable one person stay (or if you have to save the world).",
+        "features" : ["1 Bed", "1 Bath", "Training Center"]
     },
     {
         "id" : "04",
@@ -37,7 +40,8 @@
         "location" : "Bedrock, Rubble County", 
         "image" : "/php-oop-booking-app/src/images/the-flintstones-house.jpg",
         "price" : 1960,
-        "description" : "It is a brilliant and appealing architectural organic circular suburban house topped with a pancake granite slab roof, stone walls and windows that give even more of an all-natural look. The interior of the house is filled with Stone-Age-like features and the beds rock!"
+        "description" : "It is a brilliant and appealing architectural organic circular suburban house topped with a pancake granite slab roof, stone walls and windows that give even more of an all-natural look. The interior of the house is filled with Stone-Age-like features and the beds rock!",
+        "features" : ["2 Bed", "2 Bath", "Eco Friendly"]
     },
     {
         "id" : "05",
@@ -47,7 +51,8 @@
         "location" : "Village, Grass Plains",       
         "image" : "/php-oop-booking-app/src/images/minecraft-village-house.jpg",
         "price" : 1000,
-        "description" : "Cottage in rural village equipped with bed and torch. Not the best neighbourhood, some locals may turn into zombies. Money means nothing in the village, pay in emeralds for services."
+        "description" : "Cottage in rural village equipped with bed and torch. Not the best neighbourhood, some locals may turn into zombies. Money means nothing in the village, pay in emeralds for services.",
+        "features" : ["2 Bed", "4 Bath", "Customisable"]
     },
     {
         "id" : "06",
@@ -57,7 +62,8 @@
         "location" : "Anywhere, Space & Time",                
         "image" : "/php-oop-booking-app/src/images/tardis.jpg",
         "price" : 110011,        
-        "description" : "While the exterior is of limited size, the interior offers a host of possibilities, being a whole separate dimension containing an infinite number of rooms and such. Can fit multiple Daleks at a time"
+        "description" : "While the exterior is of limited size, the interior offers a host of possibilities, being a whole separate dimension containing an infinite number of rooms and such. Can fit multiple Daleks at a time",
+        "features" : ["∞ Bed", "∞ Bath", "Sleek Exterior"]
     },
     {
         "id" : "07",
@@ -67,7 +73,8 @@
         "location" : "Homedome, Teletubbyland",        
         "image" : "/php-oop-booking-app/src/images/tubbytronic-superdome.jpg",
         "price" : 15000,
-        "description" : "It's a grassy dome-shaped house and there is a hole on the top connecting to an indoor slide that goes up and down. Comes with demented Roomba."
+        "description" : "It's a grassy dome-shaped house and there is a hole on the top connecting to an indoor slide that goes up and down. Comes with demented Roomba.",
+        "features" : ["4 Bed", "4 Bath", "Meals Included"]
     },
     {
         "id" : "08",
@@ -77,7 +84,8 @@
         "location" : "Bathurst, Eastern Cape",        
         "image" : "/php-oop-booking-app/src/images/spongebob-pineapple-house.jpg",
         "price" : 1500,
-        "description" : "Nestled in the rolling hills of the Eastern Cape lies a structure like no other. Perfect for a discreet weekend away. Disclaimer; is not under the sea"
+        "description" : "Nestled in the rolling hills of the Eastern Cape lies a structure like no other. Perfect for a discreet weekend away. Disclaimer; is not under the sea",
+        "features" : ["1 Bed", "1 Bath", "Pineapple"]
     },    
     {
         "id" : "09",
@@ -87,7 +95,8 @@
         "location" : "Devon, England",                
         "image" : "/php-oop-booking-app/src/images/the-burrow.jpg",
         "price" : 2001,
-        "description" : "Room in a family home situated in the English countryside. Easy fireplace transportation, flying car trips on appointment."
+        "description" : "Room in a family home situated in the English countryside. Easy fireplace transportation, flying car trips on appointment.",
+        "features" : ["1 Bed", "4 Bath", "Flying Car"]
     },
     {
         "id" : "10",
@@ -97,7 +106,8 @@
         "location" : "Springfield, Oregon",               
         "image" : "/php-oop-booking-app/src/images/the-simpsons-house.jpg",
         "price" : 1987,
-        "description" : "Two-story detached house with an attached garage, basement, and loft. The arched front door leads directly into the foyer where an arch to the left leads to the sitting room, and one to the right leads into the dining room."
+        "description" : "Two-story detached house with an attached garage, basement, and loft. The arched front door leads directly into the foyer where an arch to the left leads to the sitting room, and one to the right leads into the dining room.",
+        "features" : ["5 Bed", "3 Bath", "Shenanigans"]
     },    
     {
         "id" : "11",
@@ -107,7 +117,8 @@
         "location" : "Garden in Arley, England",            
         "image" : "/php-oop-booking-app/src/images/arrow-house.jpeg",
         "price" : 10000,
-        "description" : "Beautiful estate in the English countryside, may hear occasional gunshots. Perfect for depression era reenactments"
+        "description" : "Beautiful estate in the English countryside, may hear occasional gunshots. Perfect for depression era reenactments",
+        "features" : ["10 Bed", "10 Bath", "Wine Cellar"]
     },
     {
         "id" : "12",
@@ -117,6 +128,7 @@
         "location" : "Dulvey Parish, Louisiana",       
         "image" : "/php-oop-booking-app/src/images/baker-family-estate.jpg",
         "price" : 777,
-        "description" : "'Welcome to the house, son!' This large estate is situated in the Bayou away from the city, may have mould growing but don't worry, it adds to the rustic charm."
+        "description" : "'Welcome to the house, son!' This large estate is situated in the Bayou away from the city, may have mould growing but don't worry, it adds to the rustic charm.",
+        "features" : ["6 Bed", "3 Bath", "Biohazards"]
     }
 ]

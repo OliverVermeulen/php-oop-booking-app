@@ -1,6 +1,7 @@
 <!-- Comparisons Modal Module -->
 <?php
-function createComparisons($comparisons) {
+function createComparisons($comparisons)
+{
     // Gets value assigned to hotel_range
     $hotel_range = $_GET["hotel_range"];
     // Loops through each file in accommodations.json

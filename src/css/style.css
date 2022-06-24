@@ -114,13 +114,26 @@ main {
 .info-heading {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;border-bottom: 1px solid gray;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
   align-items: baseline;
 }
 .accommodation-location {
   font-size: 22px;
   font-weight: 700;
   padding-bottom: 5px;
+}
+.features-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.feature {
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .accommodation-description {
   line-height: 20px;
