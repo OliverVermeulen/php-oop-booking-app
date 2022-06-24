@@ -3,7 +3,7 @@ $fileContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/boo
 $fileContents = json_decode($fileContents, true);
 function createAccommodations($accommodations)
 {
-    $hotel_id = "62b5995f475bc";
+    $hotel_id = $_GET["booking_id"];
 
     foreach ($accommodations as $index => $accommodationArray) {
         $name = $accommodationArray['name'];

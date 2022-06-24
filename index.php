@@ -48,6 +48,9 @@ session_start();
         case '/comparison':
             require __DIR__ . '/src/include/comparisons.php';
             break;
+        case '/test':
+            require __DIR__ . '/src/email/test.php';
+            break;
         default:
             http_response_code(404);
             echo "page not found";

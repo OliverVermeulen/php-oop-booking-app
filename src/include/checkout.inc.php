@@ -80,8 +80,8 @@ if (isset($_POST['submit'])) {
             <p class='checkout-row'><span class='checkout-title'>Total:</span>
             <span class='checkout-value'>R $fullAmount.00</span></p>
 
-            <form action='/php-oop-booking-app/' class='checkout-form'>
-            <input type='hidden' value ='$id'>
+            <form action='/php-oop-booking-app/test' class='checkout-form'>
+            <input type='hidden' value ='$id' name='booking_id'>
             <button class='checkout-button' title='Checkout'>Checkout</button>
             </form>                        
         </div>
