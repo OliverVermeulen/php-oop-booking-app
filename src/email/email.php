@@ -7,7 +7,6 @@ use PHPMailer\PHPMailer\Exception;
 require '/MAMP/htdocs/php-oop-booking-app/vendor/autoload.php';
 
 $mail = new PHPMailer(true);
-
 try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
@@ -26,11 +25,14 @@ try {
     $mail->isHTML(true);
     $mail->Subject = 'Airdnd Booking confirmation';
     $mail->Body    = '
-                    <p>Hi Juan,</p>
-                    <p>You have recently made a reservation for Bag End located in The Shire, Ariandor starting from 12/04/2022 till 14/04/2022</p>
-                    <p>You total costs are: R2000.00 ZAR</p>
-                    <br>
-                    <p>Regards, Airdnd</p>
+                    <div style="font-family: sans-serif">
+                        <p>Hi $name,</p>
+                        <p>You have recently made a reservation for $address_name located in $location_name</p>
+                        <p>Your stay begins $start_date and ends on $end_date</p>
+                        <p>Your total costs are: R$total_cost.00 ZAR</p>
+                        <br>
+                        <p>Regards, Airdnd</p>
+                    </div> 
                     ';
     $mail->send();
     echo 'Message has been sent';
