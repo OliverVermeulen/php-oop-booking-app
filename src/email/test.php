@@ -1,24 +1,24 @@
 <?php
 $fileContents = file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json");
 $fileContents = json_decode($fileContents, true);
-function createAccommodations($accommodations)
+function createEmail($emails)
 {
     $hotel_id = $_GET["booking_id"];
 
-    foreach ($accommodations as $index => $accommodationArray) {
-        $name = $accommodationArray['name'];
-        $surname = $accommodationArray['surname'];
-        $email = $accommodationArray['email'];
-        $address_name = $accommodationArray['address_name'];
-        $location_name = $accommodationArray['location_name'];
-        $start_date = $accommodationArray['start_date'];
-        $end_date = $accommodationArray['end_date'];
-        $days_booked = $accommodationArray['days_booked'];
-        $rates = $accommodationArray['rates'];
-        $total_cost = $accommodationArray['total_cost'];
+    foreach ($emails as $index => $emailArray) {
+        $name = $emailArray['name'];
+        $surname = $emailArray['surname'];
+        $email = $emailArray['email'];
+        $address_name = $emailArray['address_name'];
+        $location_name = $emailArray['location_name'];
+        $start_date = $emailArray['start_date'];
+        $end_date = $emailArray['end_date'];
+        $days_booked = $emailArray['days_booked'];
+        $rates = $emailArray['rates'];
+        $total_cost = $emailArray['total_cost'];
         $index = $index + 1;
-        if ($accommodationArray['id'] == $hotel_id) {
-        echo "
+        if ($emailArray['id'] == $hotel_id) {
+            echo "
             <div style='font-family: sans-serif'>
                 <p>Hi $name,</p>
                 <p>You have recently made a reservation for $address_name located in $location_name</p>
@@ -28,12 +28,12 @@ function createAccommodations($accommodations)
                 <p>Regards, Airdnd</p>
             </div>    
             ";
+        }
     }
-}
 }
 ?>
 <main class="main">
     <div class="cards">
-        <?php createAccommodations($fileContents); ?>
+        <?php createEmail($fileContents); ?>
     </div>
 </main>

@@ -49,7 +49,7 @@ session_start();
             require __DIR__ . '/src/include/comparisons.php';
             break;
         case '/test':
-            require __DIR__ . '/src/email/test.php';
+            require __DIR__ . '/src/email/email.php';
             break;
         default:
             http_response_code(404);

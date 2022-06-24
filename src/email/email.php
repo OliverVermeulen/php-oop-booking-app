@@ -6,6 +6,9 @@ use PHPMailer\PHPMailer\Exception;
 
 require '/MAMP/htdocs/php-oop-booking-app/vendor/autoload.php';
 
+$user_id = $_GET["booking_id"];
+echo $user_id;
+
 $mail = new PHPMailer(true);
 try {
     //Server settings
@@ -17,10 +20,15 @@ try {
     $mail->Password   = 'f72bf18f5f77da';
     $mail->Port       = 2525;
 
+    $users = json_decode(file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json"), true);
+    $user = $users[$user_id];
+    $email = $user["email"];
+
     //Recipients
     $mail->setFrom('confirmation@airdnd.com', 'Airdnd'); // Sender
     $mail->addAddress('oliververmeulen862@gmail.com', 'Juan Vermeulen'); // Receiver
     $mail->addReplyTo('reply@airdnd.com', 'Reply'); // Reply
+
     // Content
     $mail->isHTML(true);
     $mail->Subject = 'Airdnd Booking confirmation';
@@ -32,7 +40,7 @@ try {
                         <p>Your total costs are: R$total_cost.00 ZAR</p>
                         <br>
                         <p>Regards, Airdnd</p>
-                    </div> 
+                    </div>  
                     ';
     $mail->send();
     echo 'Message has been sent';

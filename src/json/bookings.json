@@ -1,0 +1,41 @@
+[
+    {
+        "id": "62b5a05a8fe3e",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "shirleyvermeulen123@gmail.com",
+        "address_name": "Kame House",
+        "location_name": "Turtle Island, Polynesia",
+        "start_date": "2022-06-24",
+        "end_date": "2022-07-09",
+        "days_booked": 15,
+        "rates": "530",
+        "total_cost": 7950
+    },
+    {
+        "id": "62b5a363b6fc7",
+        "name": "Oliver",
+        "surname": "Depression",
+        "email": "dsfgdsgdfsgdfg@gmail.com",
+        "address_name": "27 Redstone Road",
+        "location_name": "Village, Grass Plains",
+        "start_date": "2022-06-24",
+        "end_date": "2022-07-07",
+        "days_booked": 13,
+        "rates": "1000",
+        "total_cost": 13000
+    },
+    {
+        "id": "62b5a79409f4f",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-24",
+        "end_date": "2022-07-01",
+        "days_booked": 7,
+        "rates": "799",
+        "total_cost": 5593
+    }
+]
