@@ -1,0 +1,15 @@
+[
+    {
+        "id": "62b585f6d43b8",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "The Burrow",
+        "location_name": "Devon, England",
+        "start_date": "2022-06-24",
+        "end_date": "2022-07-07",
+        "days_booked": 13,
+        "rates": "2001",
+        "total_cost": 26013
+    }
+]

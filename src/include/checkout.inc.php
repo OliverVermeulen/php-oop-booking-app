@@ -1,8 +1,11 @@
 <?php
+// Math calculation files
 require "/MAMP/htdocs/php-oop-booking-app/src/include/calcAmount.inc.php";
 require "/MAMP/htdocs/php-oop-booking-app/src/include/calcDays.inc.php";
 
 if (isset($_POST['submit'])) {
+// POST variables
+    $id = uniqid();    
     $name = $_POST['name'];
     $surname = $_POST['surname'];
     $email = $_POST['email'];
@@ -14,6 +17,7 @@ if (isset($_POST['submit'])) {
     $rate = $_POST['rates'];
     $fullAmount = calcAmount($numDays);
 
+    // Check if stay duration is longer than 1 day
     if ($start >= $end) {
         $_SESSION['dateError'] = "Duration of stay must be longer than 1 day.. Please fill in the form again.";
         header("Location: index.php");
@@ -31,6 +35,7 @@ if (isset($_POST['submit'])) {
             $bookingsContents = [];
         }
         array_push($bookingsContents, array(
+            "id" => $id,
             "name" => $name,
             "surname" => $surname,
             "email" => $email,
