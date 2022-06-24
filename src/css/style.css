@@ -111,16 +111,21 @@ main {
   margin-bottom: 10px;
   margin-top: 5px;
 }
+.info-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;border-bottom: 1px solid gray;
+  align-items: baseline;
+}
 .accommodation-location {
   font-size: 22px;
   font-weight: 700;
-  border-bottom: 1px solid gray;
   padding-bottom: 5px;
-  margin-bottom: 10px;
 }
 .accommodation-description {
   line-height: 20px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 .booking-form {
   border: 1px solid lightgray;
@@ -192,6 +197,9 @@ main {
   border: none;
   outline: none;
   margin: 5px;
+}
+.compare-btn {
+  text-align: center;
 }
 .booking-btn {
   background-color: #ff1c30;

@@ -37,5 +37,18 @@
         "days_booked": 7,
         "rates": "530",
         "total_cost": 3710
+    },
+    "62b5c9aa1743b": {
+        "id": "62b5c9aa1743b",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Kame House",
+        "location_name": "Turtle Island, Polynesia",
+        "start_date": "2022-06-24",
+        "end_date": "2022-06-28",
+        "days_booked": 4,
+        "rates": "530",
+        "total_cost": 2120
     }
 }

@@ -17,9 +17,14 @@ function createBookings($accommodations)
                     <img src=" . $accommodationArray['image'] . " alt=\"" . $accommodationArray['address'] . "\" class='accommodation-img' title=\"" . $accommodationArray['address'] . "\">
                 <div class='accommodation-data'>
                     <div class='accommodation-info'>
+                    <div class='info-heading'>
                         <p class='accommodation-location'>" . $accommodationArray['location'] . "</p>
+                        <p title='rating'>" . $accommodationArray['rating'] . "<i class='fa fa-star'></i></p>                    
+                    </div>
                         <p class='accommodation-description'>" . $accommodationArray['description'] . "</p>
+                        <div class='compare-btn'>
                         <button id='myBtn' class='booking-btn'>Compare</button>
+                        </div>
                     </div>
                     <form action='/php-oop-booking-app/checkout' method='post' class='booking-form'>
                         <div class='pricing'>

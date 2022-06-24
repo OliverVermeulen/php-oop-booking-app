@@ -1,7 +1,8 @@
 [
     {
         "id" : "01",
-        "range" : "low",        
+        "range" : "low",
+        "rating": 8.7,        
         "address" : "Bag End",
         "location" : "The Shire, Ariandor",        
         "image" : "/php-oop-booking-app/src/images/bag-end.jpg",
@@ -11,6 +12,7 @@
     {
         "id" : "02",
         "range" : "high",
+        "rating": 9.2,
         "address" : "Addams Family Mansion", 
         "location" : "Finding, Lost Angeles",       
         "image" : "/php-oop-booking-app/src/images/addams-family-mansion.jpg",
@@ -19,7 +21,8 @@
     },
     {
         "id" : "03",
-        "range" : "low",        
+        "range" : "low",
+        "rating": 7.1,        
         "address" : "Kame House",        
         "location" : "Turtle Island, Polynesia",
         "image" : "/php-oop-booking-app/src/images/kame-house.jpg",
@@ -29,6 +32,7 @@
     {
         "id" : "04",
         "range" : "medium",
+        "rating": 6.9,
         "address" : "345 Cave Stone Road",       
         "location" : "Bedrock, Rubble County", 
         "image" : "/php-oop-booking-app/src/images/the-flintstones-house.jpg",
@@ -38,6 +42,7 @@
     {
         "id" : "05",
         "range" : "low",
+        "rating": 8.5,
         "address" : "27 Redstone Road", 
         "location" : "Village, Grass Plains",       
         "image" : "/php-oop-booking-app/src/images/minecraft-village-house.jpg",
@@ -47,6 +52,7 @@
     {
         "id" : "06",
         "range" : "high",
+        "rating": 404,
         "address" : "Tardis",
         "location" : "Anywhere, Space & Time",                
         "image" : "/php-oop-booking-app/src/images/tardis.jpg",
@@ -55,7 +61,8 @@
     },
     {
         "id" : "07",
-        "range" : "high",        
+        "range" : "high",
+        "rating": 9.6,        
         "address" : "Tubbytronic Superdome",
         "location" : "Homedome, Teletubbyland",        
         "image" : "/php-oop-booking-app/src/images/tubbytronic-superdome.jpg",
@@ -64,7 +71,8 @@
     },
     {
         "id" : "08",
-        "range" : "medium",        
+        "range" : "medium",
+        "rating": 4.6,        
         "address" : "Pineapple House",
         "location" : "Bathurst, Eastern Cape",        
         "image" : "/php-oop-booking-app/src/images/spongebob-pineapple-house.jpg",
@@ -73,7 +81,8 @@
     },    
     {
         "id" : "09",
-        "range" : "medium",        
+        "range" : "medium",
+        "rating": 9.2,        
         "address" : "The Burrow",
         "location" : "Devon, England",                
         "image" : "/php-oop-booking-app/src/images/the-burrow.jpg",
@@ -82,7 +91,8 @@
     },
     {
         "id" : "10",
-        "range" : "medium",        
+        "range" : "medium",
+        "rating": 4.7,        
         "address" : "742 Evergreen Terrace", 
         "location" : "Springfield, Oregon",               
         "image" : "/php-oop-booking-app/src/images/the-simpsons-house.jpg",
@@ -91,7 +101,8 @@
     },    
     {
         "id" : "11",
-        "range" : "high",        
+        "range" : "high",
+        "rating": 9.9,        
         "address" : "Arrow House",    
         "location" : "Garden in Arley, England",            
         "image" : "/php-oop-booking-app/src/images/arrow-house.jpeg",
@@ -101,6 +112,7 @@
     {
         "id" : "12",
         "range" : "low",
+        "rating": 7.1,
         "address" : "Baker Family Estate", 
         "location" : "Dulvey Parish, Louisiana",       
         "image" : "/php-oop-booking-app/src/images/baker-family-estate.jpg",
