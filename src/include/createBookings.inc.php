@@ -1,11 +1,16 @@
 <!-- Bookings Creation Module -->
 <?php
 include("/MAMP/htdocs/php-oop-booking-app/src/include/comparisons.php");
-function createBookings($accommodations) {
+function createBookings($accommodations)
+{
+    // Gets value assigned to hotel_id
     $hotel_id = $_GET["hotel_id"];
+    // Loops through each file in accommodations.json
     foreach ($accommodations as $index => $accommodationArray) {
         $index = $index + 1;
+        // Filters file by id of selected accommodation
         if ($index == $hotel_id) {
+            // booking page template
             echo " 
                 <div class='accommodation-booking'>
                     <h2>" . $accommodationArray['address'] . "</h2>

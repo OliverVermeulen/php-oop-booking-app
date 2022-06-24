@@ -4,6 +4,7 @@ function createAccommodations($accommodations)
 {
     foreach ($accommodations as $index => $accommodationArray) {
         $index = $index + 1;
+        // booking page template
         echo "
             <div class='card'>
                 <img src=\"" . $accommodationArray['image'] . "\" alt=\"" . $accommodationArray['address'] . "\" class='accommodation' title=\"" . $accommodationArray['address'] . "\">

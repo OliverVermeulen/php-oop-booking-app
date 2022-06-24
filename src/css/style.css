@@ -221,6 +221,7 @@ main {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 20px;
 }
 .modal-content {
   position: relative;
