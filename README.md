@@ -7,8 +7,7 @@ The aim of this project is to make a OOP based booking app in PHP
 ## Features
 
 1. The ability to book reservations at accommodations
-2. The ability to check previous reservations
-3. The ability to compare different accommodations
+2. The ability to compare different accommodations
 4. The ability to to send reservations to your email
 
 ## MVP
@@ -24,9 +23,9 @@ The aim of this project is to make a OOP based booking app in PHP
 
 - Add routing switch (complete)
 - Add in PHPMailer in via Composer (complete)
-- Add in email functionality
-- Add in json files for accommodations and reservations
-- Add in comparison selector 
+- Add in email functionality (complete)
+- Add in json files for accommodations and reservations (complete)
+- Add in comparison selector  (complete)
 
 ## Future Additions
 
