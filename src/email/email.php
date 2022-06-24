@@ -6,8 +6,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require '/MAMP/htdocs/php-oop-booking-app/vendor/autoload.php';
 
-$user_id = $_GET["booking_id"];
-echo $user_id;
+$recipient_id = $_GET["booking_id"];
 
 $mail = new PHPMailer(true);
 try {
@@ -20,13 +19,23 @@ try {
     $mail->Password   = 'f72bf18f5f77da';
     $mail->Port       = 2525;
 
-    $users = json_decode(file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json"), true);
-    $usera = $email["email"];
-    $email = $user["email"];
+    // User details
+    $recipients = json_decode(file_get_contents("/MAMP/htdocs/php-oop-booking-app/src/json/bookings.json"), true);
+    $recipient = $recipients["id" == $recipient_id]; // gets data from id key that is equal to $recipient_id
+    $name = $recipient["name"];
+    $surname = $recipient["surname"];
+    $email = $recipient["email"];
+    $address_name = $recipient["address_name"];
+    $location_name = $recipient["location_name"];
+    $start_date = $recipient["start_date"];
+    $end_date = $recipient["end_date"];
+    $days_booked = $recipient["days_booked"];
+    $rates = $recipient["rates"];
+    $total_cost = $recipient["total_cost"];
 
-    //Recipients
+    // Recipients
     $mail->setFrom('confirmation@airdnd.com', 'Airdnd'); // Sender
-    $mail->addAddress('oliververmeulen862@gmail.com', 'Juan Vermeulen'); // Receiver
+    $mail->addAddress($email, "$name $surname"); // Receiver
     $mail->addReplyTo('reply@airdnd.com', 'Reply'); // Reply
 
     // Content
@@ -37,7 +46,7 @@ try {
                         <p>Hi $name,</p>
                         <p>You have recently made a reservation for $address_name located in $location_name</p>
                         <p>Your stay begins $start_date and ends on $end_date</p>
-                        <p>Your total costs are: R$total_cost.00 ZAR</p>
+                        <p>Your total costs are: R $total_cost .00 ZAR</p>
                         <br>
                         <p>Regards, Airdnd</p>
                     </div>  

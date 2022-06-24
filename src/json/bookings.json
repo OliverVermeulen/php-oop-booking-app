@@ -37,5 +37,18 @@
         "days_booked": 7,
         "rates": "799",
         "total_cost": 5593
+    },
+    {
+        "id": "62b5b0c5ebb99",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "shirleyvermeulen123@gmail.com",
+        "address_name": "Addams Family Mansion",
+        "location_name": "Finding, Lost Angeles",
+        "start_date": "2022-06-24",
+        "end_date": "2022-07-06",
+        "days_booked": 12,
+        "rates": "9500",
+        "total_cost": 114000
     }
 ]
