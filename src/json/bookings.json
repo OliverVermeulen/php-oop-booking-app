@@ -50,5 +50,70 @@
         "days_booked": 5,
         "rates": "799",
         "total_cost": 3995
+    },
+    "62b8944c6913d": {
+        "id": "62b8944c6913d",
+        "name": "mqii",
+        "surname": "Depression",
+        "email": "miquelskool",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-21",
+        "end_date": "2022-06-23",
+        "days_booked": 2,
+        "rates": "799",
+        "total_cost": 1598
+    },
+    "62b894a17b0ee": {
+        "id": "62b894a17b0ee",
+        "name": "Oliver",
+        "surname": "Depression",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-30",
+        "end_date": "2022-07-08",
+        "days_booked": 8,
+        "rates": "799",
+        "total_cost": 6392
+    },
+    "62b895102846b": {
+        "id": "62b895102846b",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Tubbytronic Superdome",
+        "location_name": "Homedome, Teletubbyland",
+        "start_date": "2022-06-25",
+        "end_date": "2022-07-08",
+        "days_booked": 13,
+        "rates": "15000",
+        "total_cost": 195000
+    },
+    "62b89532793f2": {
+        "id": "62b89532793f2",
+        "name": "Jeff",
+        "surname": "Yeet",
+        "email": "muffdiver69atyahoodotcom",
+        "address_name": "Addams Family Mansion",
+        "location_name": "Finding, Lost Angeles",
+        "start_date": "2022-06-14",
+        "end_date": "2022-06-29",
+        "days_booked": 15,
+        "rates": "9500",
+        "total_cost": 142500
+    },
+    "62b895542cce0": {
+        "id": "62b895542cce0",
+        "name": "Jeff",
+        "surname": "Depression",
+        "email": "dsfgdsgdfsgdfg@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-06-26",
+        "end_date": "2022-07-07",
+        "days_booked": 11,
+        "rates": "799",
+        "total_cost": 8789
     }
 }
