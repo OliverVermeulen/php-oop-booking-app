@@ -167,5 +167,57 @@
         "days_booked": 9,
         "rates": "799",
         "total_cost": 7191
+    },
+    "636a4793e9580": {
+        "id": "636a4793e9580",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "The Burrow",
+        "location_name": "Devon, England",
+        "start_date": "2022-11-08",
+        "end_date": "2022-11-16",
+        "days_booked": 8,
+        "rates": "2001",
+        "total_cost": 16008
+    },
+    "636badd435f07": {
+        "id": "636badd435f07",
+        "name": "John",
+        "surname": "Jones",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-11-09",
+        "end_date": "2022-11-19",
+        "days_booked": 10,
+        "rates": "799",
+        "total_cost": 7990
+    },
+    "636bb69e1d729": {
+        "id": "636bb69e1d729",
+        "name": "Oliver",
+        "surname": "Vermeulen",
+        "email": "oliververmeulen862@gmail.com",
+        "address_name": "Kame House",
+        "location_name": "Turtle Island, Polynesia",
+        "start_date": "2022-11-09",
+        "end_date": "2022-11-12",
+        "days_booked": 3,
+        "rates": "530",
+        "total_cost": 1590
+    },
+    "636bb93775d2d": {
+        "id": "636bb93775d2d",
+        "name": "hjhgj",
+        "surname": "ghjghj",
+        "email": "ghjghjhgj",
+        "address_name": "Bag End",
+        "location_name": "The Shire, Ariandor",
+        "start_date": "2022-11-09",
+        "end_date": "2022-11-12",
+        "days_booked": 3,
+        "rates": "799",
+        "total_cost": 2397
     }
 }

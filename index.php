@@ -31,22 +31,22 @@ session_start();
     $request = strtok($request, '?');
     switch ($request) {
         case '/':
-            require __DIR__ . '/src/include/accommodations.inc.php';
+            require __DIR__ . '/src/pages/accommodations.inc.php';
             break;
         case '':
-            require __DIR__ . '/src/include/accommodations.inc.php';
+            require __DIR__ . '/src/pages/accommodations.inc.php';
             break;
         case '/home':
-            require __DIR__ . '/src/include/accommodations.inc.php';
+            require __DIR__ . '/src/pages/accommodations.inc.php';
             break;
         case '/bookings':
-            require __DIR__ . '/src/include/bookings.inc.php';
+            require __DIR__ . '/src/pages/bookings.inc.php';
             break;
         case '/comparison':
-            require __DIR__ . '/src/include/comparisons.php';
+            require __DIR__ . '/src/pages/comparisons.php';
             break;
         case '/checkout':
-            require __DIR__ . '/src/include/checkout.inc.php';
+            require __DIR__ . '/src/pages/checkout.inc.php';
             break;            
         case '/email':
             require __DIR__ . '/src/email/email.php';
